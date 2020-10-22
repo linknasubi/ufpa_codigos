@@ -209,12 +209,41 @@ class Tenth_Question:
         
         print(self.value)
 
-#Sixth_Question().calculate()
-#Seventh_Question().calculate()
-#Eight_Question().calculate()
-#Nineth_Question().calculate()
-Tenth_Question().calculate()
 
+
+class Menu:
+    def __init__(self):
+        
+        questoes = ["Sexta", "Setima", "Oitava", "Nona", "Decima"]
+        
+        dict_questoes = {"Sexta": Sixth_Question, "Setima":Seventh_Question, "Oitava":Eighth_Question,
+                         "Nona":Nineth_Question, "Decima":Tenth_Question}
+        
+        for i in range(len(questoes)):
+            print(questoes[i] + " Questao - " + str(i))
+        
+        self.select = input("Selecione a questão:")
+        
+        
+        try:
+            self.select = int(self.select)
+        
+        except:
+            raise Exception("Apenas valores numericos inteiros sao permitidos.")
+        
+        if self.select > 4:
+            raise Exception("Valor fora dos mencionados.")
+        
+        
+        
+
+        dict_questoes[questoes[self.select]]().calculate()
+
+
+
+
+
+Menu()
 
 
 

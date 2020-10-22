@@ -146,14 +146,39 @@ class Eighth_Question(Matrix):
 
 
 
-#First_Question()
-#Second_Question()
-#Third_Question()
-#Fourth_Question()
-#Fifth_Question()
-#Sixth_Question()
-#Seventh_Question()
-Eighth_Question()
+class Menu:
+    def __init__(self):
+        
+        questoes = ["Primeira", "Segunda", "Terceira", "Quarta", "Quinta", "Sexta", "Setima", "Oitava"]
+        
+        dict_questoes = {"Primeira":First_Question, "Segunda":Second_Question, "Terceira":Third_Question, "Quarta":Fourth_Question,
+                         "Quinta":Fifth_Question, "Sexta": Sixth_Question, "Setima":Seventh_Question, "Oitava":Eighth_Question}
+        
+        for i in range(len(questoes)):
+            print(questoes[i] + " Questao - " + str(i))
+        
+        self.select = input("Selecione a questão:")
+        
+        
+        try:
+            self.select = int(self.select)
+        
+        except:
+            raise Exception("Apenas valores numericos inteiros sao permitidos.")
+        
+        if self.select > 7:
+            raise Exception("Valor fora dos mencionados.")
+        
+        
+        
+
+        dict_questoes[questoes[self.select]]()
+
+
+
+
+
+Menu()
 
 
 

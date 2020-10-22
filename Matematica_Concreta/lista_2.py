@@ -250,13 +250,39 @@ class Sixth_Question:
     def calculate(self):
         print(self.seq[(len(self.seq) - self.suf):])
 
-#First_Question().calculate()
-#Second_Question().calculate()
-#Third_Question().calculate()
-#Fourth_Question().calculate()
-#Fifth_Question().calculate()
-Sixth_Question().calculate()
 
+class Menu:
+    def __init__(self):
+        
+        questoes = ["Primeira", "Segunda", "Terceira", "Quarta", "Quinta", "Sexta"]
+        
+        dict_questoes = {"Primeira": First_Question, "Segunda":Second_Question, "Terceira":Third_Question,
+                         "Quarta":Fourth_Question, "Quinta":Fifth_Question, "Sexta":Sixth_Question}
+        
+        for i in range(len(questoes)):
+            print(questoes[i] + " Questao - " + str(i))
+        
+        self.select = input("Selecione a questão:")
+        
+        
+        try:
+            self.select = int(self.select)
+        
+        except:
+            raise Exception("Apenas valores numericos inteiros sao permitidos.")
+        
+        if self.select > 5:
+            raise Exception("Valor fora dos mencionados.")
+        
+        
+        
+
+        dict_questoes[questoes[self.select]]().calculate()
+
+
+
+
+Menu()
 
 
 

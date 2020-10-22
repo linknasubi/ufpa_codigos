@@ -1,6 +1,22 @@
 
 class First_Question:
     
+    def __init__(self):
+        self.select = input("Selecione a letra A, B ou C: ")
+        
+        if self.select == "A":
+            First_Question.A_Question()
+
+        elif self.select == "B":
+            First_Question.B_Question()
+            
+        elif self.select == "C":
+            First_Question.C_Question()
+            
+        else:
+            raise Exception("Valor fora dos mencionados.")
+    
+    
 
     def A_Question():
     
@@ -341,35 +357,44 @@ class Nineth_Question:
         print("O produto dos termos da P.G é:", (self.PG[0]**len(self.PG))*(r**((len(self.PG)*(len(self.PG)-1))/2)))
 
 
-First_Question.A_Question()
-First_Question.B_Question()
-First_Question.C_Question()
 
 
-#Second_Question().Calculate()
-#
-#
-#Fifth_Question().Calculate()
-#
-#
-#Seventh_Question().Calculate()
-#
-#
-#Eighth_Question().Calculate()
-#
-#
-#Nineth_Question().Calculate()
+class Menu:
+    def __init__(self):
+        
+        questoes = ["Primeira", "Segunda", "Quinta", "Sétima", "Oitava", "Nona"]
+        
+        dict_questoes = {"Primeira": First_Question, "Segunda":Second_Question, "Quinta":Fifth_Question,
+                         "Sétima":Seventh_Question, "Oitava":Eighth_Question, "Nona":Nineth_Question}
+        
+        for i in range(len(questoes)):
+            print(questoes[i] + " Questao - " + str(i))
+        
+        self.select = input("Selecione a questão:")
+        
+        
+        try:
+            self.select = int(self.select)
+        
+        except:
+            raise Exception("Apenas valores numericos inteiros sao permitidos.")
+        
+        if self.select > 5:
+            raise Exception("Valor fora dos mencionados.")
+        
+        
+        
+        if self.select != 0:
+            dict_questoes[questoes[self.select]]().Calculate()
+        else:
+            dict_questoes[questoes[self.select]]()
+            
+        
+        
 
 
 
-
-
-
-
-
-
-
-
+Menu()
 
 
 
