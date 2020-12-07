@@ -14,8 +14,10 @@ int* reverFunction(int (&arr)[7]){
 
     for(int i=0; i<7; i++){
 
-        aux = 7 - i;
+        aux = 6 - i;
         reverArray[i] = arr[aux];
+
+        std::cout<<reverArray[i]<<" ";
 
     }
 
@@ -35,7 +37,7 @@ int* rec_reverFunction(int(&arr)[7], int init, int final){
     arr[init] = arr[final];
     arr[final] = aux;
 
-    
+
 
     return rec_reverFunction(arr, init + 1, final - 1);
 
@@ -49,6 +51,8 @@ int evenSum(int arr[], int size){
   for(int i = 0; i < size; i+=2){
     sum += arr[i];
   }
+
+  std::cout<<sum<<'\n';
 
   return sum;
 }
@@ -72,8 +76,7 @@ int* fibonacci(int n){
     arr[1] = 1;
     for(int i = 2; i<n+1; i++){
       arr[i] = arr[i-1] + arr[i-2];
-
-
+      std::cout<<arr[i]<<" ";
     }
 
     return arr;
@@ -94,6 +97,8 @@ int* rowSum(int matr[5][5]){
       arr[j] = sum;
       sum = 0;
     }
+    
+    std::cout<<sum<<'\n';
 
     return arr;
   }
@@ -113,6 +118,8 @@ int* colSum(int matr[5][5]){
       sum = 0;
     }
 
+    std::cout<<sum<<'\n';
+
   return arr;
 }
 
@@ -130,6 +137,8 @@ int diagonalSum(int matr[5][5]){
     sum += matr[i][i];
   }
 
+  std::cout<<sum<<'\n';
+
   return sum;
 }
 
@@ -137,10 +146,12 @@ int overdiagonalSum(int matr[5][5]){
   int sum = 0;
 
   for(int i = 0; i < 5; i++){
-    for(int j = 5; j > i;  j--){
+    for(int j = 4; j > i;  j--){
       sum += matr[i][j];
     }
   }
+
+  std::cout<<sum<<'\n';
 
   return sum;
 
@@ -150,10 +161,12 @@ int underdiagonalSum(int matr[5][5]){
   int sum = 0;
 
   for(int j = 0; j < 5; j++){
-    for(int i = 5; i > j; i--){
+    for(int i = 4; i > j; i--){
       sum += matr[i][j];
     }
   }
+
+  std::cout<<sum<<'\n';
 
   return sum;
 
@@ -168,6 +181,8 @@ int sec_diagonalSum(int matr[5][5]){
     j -= i;
     sum += matr[i][j];
   }
+
+  std::cout<<sum<<'\n';
 
   return sum;
 }
@@ -186,6 +201,8 @@ int oversec_diagonalSum(int matr[5][5]){
     }
   }
 
+  std::cout<<sum<<'\n';
+
   return sum;
 
 }
@@ -202,6 +219,8 @@ int undersec_diagonalSum(int matr[5][5]){
       }
     }
   }
+
+  std::cout<<sum<<'\n';
 
   return sum;
 
@@ -245,9 +264,6 @@ void pascalTriangle(int n){
 
 
 int main() {
-  cout << "Hello World!";
-
-
 
     int vec[7] = {5,8,1,0,9,5,3};
     int matrix[5][5] = {{1,1,1,1,1},{1,1,1,1,1},{1,1,1,1,1},{1,1,1,1,1},{1,1,1,1,1}};
@@ -272,9 +288,20 @@ int main() {
 
     int diagonalsum = diagonalSum(matrix);
 
+    int overdiagonalsum = overdiagonalSum(matrix);
+
+    int underdiagonalsum = underdiagonalSum(matrix);
+
+    int sec_diagonalsum = sec_diagonalSum(matrix);
+
+    int oversec_diagonalsum = oversec_diagonalSum(matrix);
+
+    int undersec_diagonalsum = undersec_diagonalSum(matrix);
+
+
     pascalTriangle(5);
 
-    std::cout<<'\n'<<diagonalsum;
+    //std::cout<<'\n'<<diagonalsum;
 
 
 
