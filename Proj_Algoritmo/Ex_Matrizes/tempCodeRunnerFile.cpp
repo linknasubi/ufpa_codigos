@@ -1,0 +1,1 @@
+    pascalTriangle(5);
