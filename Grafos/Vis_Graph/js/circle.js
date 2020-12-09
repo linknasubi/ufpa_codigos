@@ -14,8 +14,8 @@ function init(){
 	canvCircle.height = canvCircle.width * heightRatio;
 	ctxCircle = canvCircle.getContext('2d')
     ctxCircle.globalCompositeOperation = 'destination-over';
-    Graph = new Adj_Graph([1,2,3,4,8,7,12]);
-    Graph.addEdge([1,2, 2,7, 1,8, 4,12, 7,4, 4,3], 0);
+    Graph = new Adj_Graph([1,2,3,4,8,7,12, 18,15,16,21,23,26]);
+    Graph.addEdge([1,2, 2,7, 1,8, 4,12, 7,4, 4,3, 18,15, 18,21, 26,23, 7,16, 16,23, 15,4], 0);
     graph_values = Graph.graph;
     console.log(Graph.graph);
     num_edges = Graph.edges();
@@ -44,7 +44,7 @@ function Circle(xPos, yPos){
 	this.x = xPos;
 	this.y = yPos;
 	this.velocity = sign * 0.005;
-	this.radius_o = Math.round(Math.random()*((canvCircle.width/65)-(canvCircle.width/75)) + (canvCircle.width/65)); //Dynamic Radius
+	this.radius_o = Math.round(Math.random()*((canvCircle.width/75)-(canvCircle.width/85)) + (canvCircle.width/75)); //Dynamic Radius
 	this.radius = this.radius_o; //Radius Pivot
 	this.range = (Math.random()+0.01)/8
 	this.radians = 0
@@ -98,7 +98,7 @@ function Line(i){
 
 }
 
-Line.prototype.update = function(root, connections){
+Line.prototype.update = function(root, connections, circle_color){
 
     this.Xo = circle_nodes[root].x;
     this.Yo = circle_nodes[root].y;
@@ -106,11 +106,13 @@ Line.prototype.update = function(root, connections){
     
     for(var j of connections){
         ctxCircle.beginPath();
-        ctxCircle.fillStyle = 'black';
+        ctxCircle.strokeStyle = 'black';
+
         ctxCircle.moveTo(this.Xo, this.Yo);
         j = parseInt(j);
         ctxCircle.lineTo(circle_nodes[j].x, circle_nodes[j].y);
         ctxCircle.lineWidth = 2.5;
+
         ctxCircle.stroke();
 
 
@@ -127,11 +129,20 @@ Line.prototype.update = function(root, connections){
 
 function draw_circle(){
 
+    var aux = -1;
+
+    var rel_distance_x = [-(canvCircle.width/9.4), -(canvCircle.width/8.4)] //Used to keep the nodes coordinates away from the borders
 
 	for(var i in graph_values){
 
-		randomX = Math.round(Math.random()*(canvCircle.width - 400)+200);
-		randomY = Math.round(Math.random()*(canvCircle.height - 200)+100);
+        aux += 1;
+
+
+        sectionXo = (((canvCircle.width+rel_distance_x[0])*(aux+1))/num_edges);
+		sectionX = ((canvCircle.width+rel_distance_x[1])*(aux+2)/num_edges) - 40;
+
+		randomX = Math.round(Math.random()*(sectionX - sectionXo) + sectionXo/1.2);
+		randomY = Math.round(Math.random()*(canvCircle.height * ((aux%2)+1)/2 - 200)+100);
 		var circle = new Circle(randomX, randomY);
 		circle_nodes[i] = circle;
 	}
@@ -151,9 +162,9 @@ draw_circle();
 
 function initDFS(){
 
-    dfs = DFS(graph_values);
+    new DFS(graph_values);
 
-    flag = 0;
+
 }
 
 
@@ -170,7 +181,7 @@ function draw(){
     
     for(var i in graph_values){
         //console.log(graph_values[i]);
-        edges[i].update(i, graph_values[i]);
+        edges[i].update(i, graph_values[i], circle_nodes[i].color);
     }
 
 
@@ -178,7 +189,7 @@ function draw(){
 
 }
 
-new DFS(graph_values);
+
 
 
 window.requestAnimationFrame(draw);

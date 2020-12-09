@@ -176,21 +176,19 @@ class DFS{
         for(var i in this.nodes){
             i = parseInt(i);
             if(this.white.includes(i)){
-                this.checkGraph(i);
-                await sleep(8000);
+                await this.checkGraph(i);
+                
                //setTimeout(() => this.checkGraph(i), 500) ;
             }
         }
     }
 
 
-
-
     async checkGraph(node){
         var node = parseInt(node);
 
         circle_nodes[node].color = 'gray';
-        await sleep(100);
+        await sleep(400);
 
 
         this.gray.push(node);
@@ -199,9 +197,8 @@ class DFS{
 
         for(var j of this.nodes[node]){
             if(this.white.includes(j)){
-                this.checkGraph(j);
-                //setTimeout(() => this.checkGraph(j), 100); 
-            await sleep(900);
+                await this.checkGraph(j);
+
 
             }       
         }
@@ -213,7 +210,7 @@ class DFS{
         this.gray.splice(this.gray.indexOf(node), 1);
         circle_nodes[node].color = 'black';
         this.black.push(node);
-        await sleep(600);
+        await sleep(400);
         this.time_stamp[node] -= ~~(+new Date() / 1000);
         this.time_stamp[node] *= -1;
 
@@ -221,9 +218,6 @@ class DFS{
 
 
 }
-
-
-
 
 
 
