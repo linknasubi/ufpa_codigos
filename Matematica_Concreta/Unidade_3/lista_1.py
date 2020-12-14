@@ -127,3 +127,19 @@ newton = BiNewton(2).calcNewton()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

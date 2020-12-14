@@ -124,27 +124,56 @@ Line.prototype.update = function(root, connections, circle_color){
 
 
 
-
-
-
 function draw_circle(){
 
     var aux = -1;
+    var gen_aux = -1;
 
-    var rel_distance_x = [-(canvCircle.width/9.4), -(canvCircle.width/8.4)] //Used to keep the nodes coordinates away from the borders
+    var visi_nodes = []
+
+    var rel_distance_x = [-(canvCircle.width)/12.4, -(canvCircle.width/1.4)] //Used to keep the nodes coordinates away from the borders
+
+    var rel_distance_y = [-(canvCircle.height/2.4), -(canvCircle.height/12.4)] //Used to keep the planets coordinates away from the borders
 
 	for(var i in graph_values){
 
-        aux += 1;
+        aux = gen_aux;
+        gen_aux += 1;
+        for(var j of graph_values[i]){
+            aux += 1;
+            visi_nodes.push(j);
+
+            sectionXo = (((canvCircle.width+rel_distance_x[0])*(aux))/num_edges);
+            sectionX = ((canvCircle.width+rel_distance_x[1])*(aux+1)/num_edges) - 40;
+
+            sectionYo = (((canvCircle.height+rel_distance_y[0])*(aux))/num_edges);
+            sectionY = ((canvCircle.height+rel_distance_y[1])*(aux+1)/num_edges) - 40;
+    
+            randomX = Math.round(Math.random()*(sectionX - sectionXo) + sectionXo/1.2);
+            randomY = Math.round(Math.random()*(sectionY - sectionYo) + sectionYo/1.2);
+            var circle = new Circle(randomX, randomY);
+            circle_nodes[j] = circle;
+            
+        }
 
 
-        sectionXo = (((canvCircle.width+rel_distance_x[0])*(aux+1))/num_edges);
-		sectionX = ((canvCircle.width+rel_distance_x[1])*(aux+2)/num_edges) - 40;
+        if(visi_nodes.includes(i)){
+            continue
+        }
 
-		randomX = Math.round(Math.random()*(sectionX - sectionXo) + sectionXo/1.2);
-		randomY = Math.round(Math.random()*(canvCircle.height * ((aux%2)+1)/2 - 200)+100);
-		var circle = new Circle(randomX, randomY);
-		circle_nodes[i] = circle;
+        else{
+
+            sectionXo = (((canvCircle.width+rel_distance_x[0])*(gen_aux+1))/num_edges);
+            sectionX = ((canvCircle.width+rel_distance_x[1])*(gen_aux+2)/num_edges) - 40;
+    
+            randomX = Math.round(Math.random()*(sectionX - sectionXo) + sectionXo/1.2);
+            randomY = Math.round(Math.random()*(canvCircle.height * ((aux%2)+1)/2 - 200)+100);
+            var circle = new Circle(randomX, randomY);
+            circle_nodes[i] = circle;
+        }
+
+
+
 	}
 
 
