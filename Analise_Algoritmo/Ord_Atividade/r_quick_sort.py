@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
-class QuickSort:
+class rQuickSort:
     
     def __init__(self, print_flag):
 
@@ -13,7 +13,7 @@ class QuickSort:
     
     def partition(self, arr, low, high):
      
-        pivot = arr[(low+high)//2]
+        pivot = arr[random.randint(low, high)]
         j = high + 1
         i = low - 1
      
@@ -47,14 +47,12 @@ class QuickSort:
             
             self.quickSort(arr, low, pivot)
             self.quickSort(arr, pivot + 1, high)
-            
-            
 
 
 
 """
 
-LETRA A
+LETRA D.A
 
 """
 
@@ -67,29 +65,37 @@ for i in range(0,20):
 
 
 
-
-
-quick = QuickSort(1)
+quick = rQuickSort(1)
 quick.quickSort(array, 0, len(array)-1)
 
 
-
-"""
-
-LETRA B
-
-"""
-
-
-#PRIMEIRA QUESTÃO DA LISTA 4 DE ANÁLISE DE ALGORITMO
-
+print(array)
 
 
 """
 
-LETRA C
+LETRA D.B
+
 
 """
+
+
+
+
+
+
+
+
+
+
+"""
+
+LETRA D.C
+
+
+"""
+
+
 
 def arraysGen(first_array, size):
 
@@ -108,7 +114,7 @@ def arraysGen(first_array, size):
     
     time_list.append(time.time())
     
-    QuickSort(0).quickSort(sort_array, 0, len(sort_array)-1)
+    rQuickSort(0).quickSort(sort_array, 0, len(sort_array)-1)
     
     time_list[0] = abs(time_list[0] - time.time())
     
@@ -121,7 +127,7 @@ def arraysGen(first_array, size):
     
     time_list.append(time.time())
     
-    QuickSort(0).quickSort(sort_inv_array, 0, len(sort_inv_array)-1)
+    rQuickSort(0).quickSort(sort_inv_array, 0, len(sort_inv_array)-1)
     
     time_list[1] = abs(time_list[1] - time.time())
     
@@ -130,7 +136,7 @@ def arraysGen(first_array, size):
     
     time_list.append(time.time())
     
-    QuickSort(0).quickSort(first_array, 0, len(first_array)-1)
+    rQuickSort(0).quickSort(first_array, 0, len(first_array)-1)
     
     time_list[2] = abs(time_list[2] - time.time())
     
@@ -147,10 +153,9 @@ fig = plt.figure()
 label = ['Crescente', 'Decrescente', 'Desordenada']
 all_time = [time_list[0], time_list[1], time_list[2]]
 plt.bar(label,all_time)
-plt.title('Pivô Termo do Meio')
 plt.ylabel('Tempo')
-plt.savefig("bar_mid_quick.png",dpi=100)
-
+plt.title('Pivô Aleatório')
+plt.savefig("bar_random_quick.png",dpi=100)
 plt.show()
 
 
@@ -179,12 +184,13 @@ plt.plot(sizes, timing_inv_sorted)
 plt.plot(sizes, timing_unordered)
 
 plt.legend(['Ordenado Crescente', 'Ordenado Decrescente', 'Desordenado'], loc='upper left')
+plt.title('Pivô Aleatório')
 plt.xlabel('Tamanho da Entrada')
 plt.ylabel('Tempo')
-plt.title('Pivô Termo do Meio')
-plt.savefig("plot_mid_quick.png",dpi=100)
+plt.savefig("plot_random_quick.png",dpi=100)
 
 plt.show()
+
 
 
 
