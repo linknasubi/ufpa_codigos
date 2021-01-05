@@ -7,7 +7,8 @@
 
 ## Representação Visual Em Algoritmos De Busca
 
-A partir dos conhecimentos adquiridos na disciplina de Grafos, foi elaborada uma representação visual dos algoritmos de busca DFS e BFS.
+A partir dos conhecimentos adquiridos na disciplina de Grafos, foi elaborada uma representação visual dos algoritmos de busca DFS e BFS, no qual é possível modificar de maneira
+livre relações entre grafos, seja através de grafos direcionados, não direcionados, modificar o número de nós e gerir suas respectivas ligações.
 
 ### DFS
 ![](https://media4.giphy.com/media/aFbPDE7wLaaOBeLnsW/giphy.gif)
