@@ -142,8 +142,8 @@ function draw_circle(){
     }
     
 
-    var random_ind_X = Math.floor(Math.random() * X_Dict.length);
-    var random_ind_Y = Math.floor(Math.random() * Y_Dict.length);
+    var random_ind_X = Math.floor(Math.random() * (X_Dict.length/2 - ( (X_Dict.length/2) - 3) ) + (X_Dict.length/2) - 3);
+    var random_ind_Y = Math.floor(Math.random() * (Y_Dict.length/2 - ( (Y_Dict.length/2) - 3) ) + (Y_Dict.length/2) - 3);
 
     var choiceX = X_Dict[random_ind_X];
     var choiceY = Y_Dict[random_ind_Y];
