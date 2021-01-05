@@ -1,0 +1,7 @@
+$sc-purple: #2f0949;
+
+$theme-colors: (
+  "sc-purple": $sc-purple,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

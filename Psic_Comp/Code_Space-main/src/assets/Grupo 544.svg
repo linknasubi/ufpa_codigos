@@ -1,0 +1,640 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="516.6" height="467.78" viewBox="0 0 616.6 567.78">
+  <defs>
+    <radialGradient id="radial-gradient" cx="-10.992" cy="-20.587" r="0.829" gradientTransform="translate(-4.004 -7.363) scale(0.585 0.593)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b5cdc7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-11.706" cy="-19.299" r="0.829" gradientTransform="translate(-4.266 -6.901) scale(0.585 0.593)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="-22.947" cy="-10.306" r="0.829" gradientTransform="matrix(-0.585, 0, 0, 0.593, -32, -3.674)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="-24.388" cy="-9.47" r="0.829" gradientTransform="matrix(-0.585, 0, 0, 0.593, -34.015, -3.374)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient" x1="-29.567" y1="0.5" x2="-28.567" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe2c4"/>
+      <stop offset="1" stop-color="#ffb870"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-76.332" y1="0.5" x2="-75.332" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dc7e67"/>
+      <stop offset="1" stop-color="#e66748"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf2bb5"/>
+      <stop offset="1" stop-color="#7614a3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e66748"/>
+      <stop offset="1" stop-color="#9a351d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="-147.896" y1="1" x2="-147.896" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4cc194"/>
+      <stop offset="0.284" stop-color="#4cd08b"/>
+      <stop offset="0.68" stop-color="#4cdf82"/>
+      <stop offset="1" stop-color="#4ce580"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="-98.955" y1="0.5" x2="-97.955" y2="0.5" xlink:href="#linear-gradient-7"/>
+    <radialGradient id="radial-gradient-5" cx="-6.74" cy="-17.837" r="0.829" gradientTransform="translate(-2.446 -6.377) scale(0.585 0.593)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-6" cx="-7.696" cy="-18.149" r="0.829" gradientTransform="translate(-2.796 -6.488) scale(0.585 0.593)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-7" cx="-8.742" cy="-19.568" r="0.829" gradientTransform="translate(-3.18 -6.998) scale(0.585 0.593)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-8" cx="-9.693" cy="-20.356" r="0.829" gradientTransform="translate(-3.528 -7.28) scale(0.585 0.593)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="Grupo_544" data-name="Grupo 544" transform="translate(0 -2023.82)">
+    <g id="Grupo_349" data-name="Grupo 349" transform="translate(-863.072 606)">
+      <path id="Caminho_247" data-name="Caminho 247" d="M676.708,399.852c0,25.583-35.474,46.32-79.238,46.32s-79.237-20.737-79.237-46.32,35.473-46.32,79.237-46.32S676.708,374.269,676.708,399.852Z" transform="translate(749.282 1539.427)" fill="url(#radial-gradient)"/>
+      <path id="Caminho_248" data-name="Caminho 248" d="M708.924,378.266c0,25.583-35.476,46.32-79.238,46.32s-79.237-20.737-79.237-46.32,35.473-46.32,79.237-46.32S708.924,352.683,708.924,378.266Z" transform="translate(770.748 1525.044)" fill="url(#radial-gradient-2)"/>
+      <path id="Caminho_249" data-name="Caminho 249" d="M442.548,361.492c0,40.688,56.42,73.666,126.015,73.666s126.02-32.978,126.02-73.666-56.425-73.665-126.02-73.665S442.548,320.81,442.548,361.492Z" transform="translate(672.66 1495.647)" fill="url(#radial-gradient-3)"/>
+      <path id="Caminho_250" data-name="Caminho 250" d="M469.727,339.24c0,40.687,56.418,73.666,126.013,73.666s126.019-32.98,126.019-73.666-56.423-73.666-126.019-73.666S469.727,298.557,469.727,339.24Z" transform="translate(716.962 1449.349)" fill="url(#radial-gradient-4)"/>
+      <g id="Grupo_89" data-name="Grupo 89" transform="translate(1153.423 1783.433)">
+        <path id="Caminho_251" data-name="Caminho 251" d="M590.913,379.887,468.126,309v-4.633l162.732,47.827v4.628Z" transform="translate(-468.126 -304.365)" fill="#e66748"/>
+      </g>
+      <g id="Grupo_90" data-name="Grupo 90" transform="translate(1148.115 1783.433)">
+        <path id="Caminho_252" data-name="Caminho 252" d="M590.913,379.887,468.126,309v-4.633l122.792,70.428v4.633Z" transform="translate(-468.126 -304.365)" fill="#ffa791"/>
+      </g>
+      <g id="Grupo_91" data-name="Grupo 91" transform="translate(1153.423 1757.628)">
+        <path id="Caminho_253" data-name="Caminho 253" d="M590.913,384.477l-122.787-70.89,39.951-23.062,122.782,70.889Z" transform="translate(-468.126 -290.525)" fill="#ff8263"/>
+      </g>
+      <path id="Caminho_254" data-name="Caminho 254" d="M497.477,300.582l-8.1-4.677v-.993l13.321,1.661v.991Z" transform="translate(689.602 1456.817)" fill="#ce5b3f"/>
+      <path id="Caminho_255" data-name="Caminho 255" d="M497.477,300.788l-8.1-4.672,5.225-3.012,8.1,4.674Z" transform="translate(689.602 1455.183)" fill="#ffa791"/>
+      <path id="Caminho_256" data-name="Caminho 256" d="M502.678,303.584l-8.1-4.675v-.989L507.9,299.58v.989Z" transform="translate(694.487 1460.002)" fill="#ce5b3f"/>
+      <path id="Caminho_257" data-name="Caminho 257" d="M502.678,303.8l-8.1-4.675,5.219-3.014,8.1,4.675Z" transform="translate(694.487 1458.373)" fill="#ffa791"/>
+      <path id="Caminho_258" data-name="Caminho 258" d="M507.88,306.589l-8.1-4.677v-.986l13.316,1.66v.991Z" transform="translate(699.371 1463.187)" fill="#ce5b3f"/>
+      <path id="Caminho_259" data-name="Caminho 259" d="M507.88,306.8l-8.1-4.67,5.225-3.014,8.091,4.673Z" transform="translate(699.371 1461.563)" fill="#ffa791"/>
+      <path id="Caminho_260" data-name="Caminho 260" d="M513.08,309.6l-8.1-4.677v-.988l13.316,1.66v.991Z" transform="translate(704.256 1466.371)" fill="#ce5b3f"/>
+      <path id="Caminho_261" data-name="Caminho 261" d="M513.08,309.814l-8.1-4.677,5.22-3.014,8.1,4.674Z" transform="translate(704.256 1464.753)" fill="#ffa791"/>
+      <path id="Caminho_262" data-name="Caminho 262" d="M518.273,312.6l-8.091-4.669v-.993L523.5,308.6v.994Z" transform="translate(709.141 1469.555)" fill="#ce5b3f"/>
+      <path id="Caminho_263" data-name="Caminho 263" d="M518.273,312.812l-8.091-4.67,5.22-3.012,8.1,4.67Z" transform="translate(709.141 1467.942)" fill="#ffa791"/>
+      <path id="Caminho_264" data-name="Caminho 264" d="M523.474,315.609l-8.091-4.674v-.993l13.311,1.663v.991Z" transform="translate(714.025 1472.739)" fill="#6a55e5"/>
+      <path id="Caminho_265" data-name="Caminho 265" d="M523.474,315.82l-8.091-4.673,5.214-3.011,8.1,4.673Z" transform="translate(714.025 1471.132)" fill="#b4b0ff"/>
+      <path id="Caminho_266" data-name="Caminho 266" d="M528.677,318.615l-8.1-4.674v-.991l13.321,1.657v.994Z" transform="translate(718.908 1475.925)" fill="#6a55e5"/>
+      <path id="Caminho_267" data-name="Caminho 267" d="M528.677,318.833l-8.1-4.677,5.223-3.015,8.1,4.672Z" transform="translate(718.908 1474.322)" fill="#b4b0ff"/>
+      <path id="Caminho_268" data-name="Caminho 268" d="M533.875,321.617l-8.094-4.67v-.991l13.321,1.658v.993Z" transform="translate(723.794 1479.108)" fill="#ce5b3f"/>
+      <path id="Caminho_269" data-name="Caminho 269" d="M533.875,321.836l-8.094-4.675L531,314.148l8.1,4.67Z" transform="translate(723.794 1477.512)" fill="#ffa791"/>
+      <path id="Caminho_270" data-name="Caminho 270" d="M539.078,324.627l-8.1-4.675v-.989l13.316,1.658v.989Z" transform="translate(728.677 1482.294)" fill="#ce5b3f"/>
+      <path id="Caminho_271" data-name="Caminho 271" d="M539.078,324.842l-8.1-4.674,5.22-3.014,8.1,4.672Z" transform="translate(728.677 1480.702)" fill="#ffa791"/>
+      <path id="Caminho_272" data-name="Caminho 272" d="M544.28,327.634l-8.1-4.673v-.993l13.327,1.663v.988Z" transform="translate(733.56 1485.477)" fill="#ce5b3f"/>
+      <path id="Caminho_273" data-name="Caminho 273" d="M544.28,327.852l-8.1-4.678,5.225-3.015,8.1,4.678Z" transform="translate(733.56 1483.89)" fill="#ffa791"/>
+      <path id="Caminho_274" data-name="Caminho 274" d="M549.474,330.639l-8.1-4.672v-.993l13.322,1.662v.991Z" transform="translate(738.444 1488.662)" fill="#ce5b3f"/>
+      <path id="Caminho_275" data-name="Caminho 275" d="M549.474,330.855l-8.1-4.675,5.225-3.014,8.1,4.675Z" transform="translate(738.444 1487.081)" fill="#ffa791"/>
+      <path id="Caminho_276" data-name="Caminho 276" d="M554.675,333.649l-8.1-4.677v-.991l13.321,1.661v.989Z" transform="translate(743.329 1491.848)" fill="#ce5b3f"/>
+      <path id="Caminho_277" data-name="Caminho 277" d="M554.675,333.862l-8.1-4.675,5.224-3.014,8.1,4.675Z" transform="translate(743.329 1490.272)" fill="#ffa791"/>
+      <path id="Caminho_278" data-name="Caminho 278" d="M559.874,336.652l-8.1-4.672v-.991l13.316,1.657v.989Z" transform="translate(748.213 1495.034)" fill="#ce5b3f"/>
+      <path id="Caminho_279" data-name="Caminho 279" d="M559.874,336.868l-8.1-4.673L557,329.18l8.091,4.672Z" transform="translate(748.213 1493.462)" fill="#ffa791"/>
+      <path id="Caminho_280" data-name="Caminho 280" d="M498.141,305.734l-12.808-7.5v-.986l18.027,4.483v.993Z" transform="translate(686.197 1459.694)" fill="#ce5b3f"/>
+      <path id="Caminho_281" data-name="Caminho 281" d="M498.141,305.951l-12.808-7.5,5.219-3.017,12.808,7.5Z" transform="translate(686.197 1458.062)" fill="#ffa791"/>
+      <path id="Caminho_282" data-name="Caminho 282" d="M501.451,307.614l-8.091-4.678v-.988l13.311,1.661v.988Z" transform="translate(693.339 1464.27)" fill="#ce5b3f"/>
+      <path id="Caminho_283" data-name="Caminho 283" d="M501.451,307.823l-8.091-4.669,5.22-3.015,8.091,4.677Z" transform="translate(693.339 1462.647)" fill="#ffa791"/>
+      <path id="Caminho_284" data-name="Caminho 284" d="M506.655,310.618l-8.1-4.67v-.994l13.314,1.661v.989Z" transform="translate(698.221 1467.453)" fill="#ce5b3f"/>
+      <path id="Caminho_285" data-name="Caminho 285" d="M506.655,310.832l-8.1-4.675,5.224-3.01,8.091,4.672Z" transform="translate(698.221 1465.838)" fill="#ffa791"/>
+      <path id="Caminho_286" data-name="Caminho 286" d="M511.851,313.624l-8.089-4.675v-.989l13.309,1.66v.991Z" transform="translate(703.109 1470.638)" fill="#ce5b3f"/>
+      <path id="Caminho_287" data-name="Caminho 287" d="M511.851,313.838l-8.089-4.673,5.219-3.014,8.091,4.674Z" transform="translate(703.109 1469.027)" fill="#ffa791"/>
+      <path id="Caminho_288" data-name="Caminho 288" d="M517.055,316.634l-8.1-4.677v-.991l13.316,1.66v.991Z" transform="translate(707.991 1473.823)" fill="#6a55e5"/>
+      <path id="Caminho_289" data-name="Caminho 289" d="M517.055,316.848l-8.1-4.677,5.22-3.014,8.1,4.674Z" transform="translate(707.991 1472.217)" fill="#ffa791"/>
+      <path id="Caminho_290" data-name="Caminho 290" d="M522.255,319.636l-8.1-4.674v-.991l13.316,1.661v.989Z" transform="translate(712.875 1477.007)" fill="#6a55e5"/>
+      <path id="Caminho_291" data-name="Caminho 291" d="M522.255,319.852l-8.1-4.675,5.22-3.014,8.1,4.675Z" transform="translate(712.875 1475.406)" fill="#b4b0ff"/>
+      <path id="Caminho_292" data-name="Caminho 292" d="M527.454,322.644l-8.1-4.675v-.993l13.316,1.665v.989Z" transform="translate(717.76 1480.19)" fill="#6a55e5"/>
+      <path id="Caminho_293" data-name="Caminho 293" d="M527.454,322.859l-8.1-4.678,5.219-3.011,8.1,4.675Z" transform="translate(717.76 1478.596)" fill="#b4b0ff"/>
+      <path id="Caminho_294" data-name="Caminho 294" d="M532.653,325.65l-8.1-4.673v-.993l13.321,1.665v.986Z" transform="translate(722.642 1483.375)" fill="#ce5b3f"/>
+      <path id="Caminho_295" data-name="Caminho 295" d="M532.653,325.863l-8.1-4.675,5.223-3.012,8.1,4.677Z" transform="translate(722.642 1481.786)" fill="#ffa791"/>
+      <path id="Caminho_296" data-name="Caminho 296" d="M537.85,328.658l-8.091-4.677v-.991l13.309,1.661v.989Z" transform="translate(727.53 1486.561)" fill="#ce5b3f"/>
+      <path id="Caminho_297" data-name="Caminho 297" d="M537.85,328.871,529.76,324.2l5.219-3.014,8.091,4.675Z" transform="translate(727.53 1484.975)" fill="#ffa791"/>
+      <path id="Caminho_298" data-name="Caminho 298" d="M543.053,331.663l-8.1-4.675V326l13.321,1.657v.993Z" transform="translate(732.412 1489.748)" fill="#ce5b3f"/>
+      <path id="Caminho_299" data-name="Caminho 299" d="M543.053,331.881l-8.1-4.673,5.22-3.018,8.1,4.675Z" transform="translate(732.412 1488.167)" fill="#ffa791"/>
+      <path id="Caminho_300" data-name="Caminho 300" d="M548.253,334.672l-8.1-4.678V329l13.322,1.657v1Z" transform="translate(737.297 1492.931)" fill="#ce5b3f"/>
+      <path id="Caminho_301" data-name="Caminho 301" d="M548.253,334.885l-8.1-4.677,5.22-3.014,8.1,4.67Z" transform="translate(737.297 1491.356)" fill="#ffa791"/>
+      <path id="Caminho_302" data-name="Caminho 302" d="M557.37,339.977,545.353,333v-.986l17.236,3.959v.986Z" transform="translate(742.632 1496.515)" fill="#ce5b3f"/>
+      <path id="Caminho_303" data-name="Caminho 303" d="M557.37,340.189l-12.018-6.971,5.225-3.017,12.011,6.976Z" transform="translate(742.632 1494.944)" fill="#ffa791"/>
+      <path id="Caminho_304" data-name="Caminho 304" d="M490.854,306.228l-9.633-5.612v-.989l14.162,2.2v.991Z" transform="translate(682.005 1461.945)" fill="#ce5b3f"/>
+      <path id="Caminho_305" data-name="Caminho 305" d="M491.15,306.612l-9.93-5.78,5.219-3.017,9.931,5.78Z" transform="translate(682.086 1460.342)" fill="#ffa791"/>
+      <path id="Caminho_306" data-name="Caminho 306" d="M495.021,308.613l-8.1-4.672v-.989l13.322,1.661v.993Z" transform="translate(687.296 1465.333)" fill="#ce5b3f"/>
+      <path id="Caminho_307" data-name="Caminho 307" d="M495.021,308.833l-8.1-4.675,5.219-3.015,8.1,4.677Z" transform="translate(687.296 1463.713)" fill="#ffa791"/>
+      <path id="Caminho_308" data-name="Caminho 308" d="M500.222,311.625l-8.1-4.675v-.993l13.321,1.665v.989Z" transform="translate(692.18 1468.517)" fill="#ce5b3f"/>
+      <path id="Caminho_309" data-name="Caminho 309" d="M500.222,311.836l-8.1-4.675,5.225-3.01,8.1,4.675Z" transform="translate(692.18 1466.904)" fill="#ffa791"/>
+      <path id="Caminho_310" data-name="Caminho 310" d="M505.423,314.628l-8.1-4.675v-.988l13.322,1.657v.993Z" transform="translate(697.064 1471.703)" fill="#ce5b3f"/>
+      <path id="Caminho_311" data-name="Caminho 311" d="M505.423,314.847l-8.1-4.677,5.225-3.015,8.1,4.672Z" transform="translate(697.064 1470.093)" fill="#ffa791"/>
+      <path id="Caminho_312" data-name="Caminho 312" d="M510.624,317.639l-8.1-4.678v-.99l13.314,1.662v.988Z" transform="translate(701.949 1474.888)" fill="#ce5b3f"/>
+      <path id="Caminho_313" data-name="Caminho 313" d="M510.624,317.852l-8.1-4.675,5.223-3.015,8.091,4.677Z" transform="translate(701.949 1473.282)" fill="#ffa791"/>
+      <path id="Caminho_314" data-name="Caminho 314" d="M515.824,320.638l-8.1-4.672v-.988l13.316,1.66v.989Z" transform="translate(706.834 1478.072)" fill="#6a55e5"/>
+      <path id="Caminho_315" data-name="Caminho 315" d="M515.824,320.855l-8.1-4.67,5.219-3.015,8.1,4.675Z" transform="translate(706.834 1476.473)" fill="#b4b0ff"/>
+      <path id="Caminho_316" data-name="Caminho 316" d="M521.024,323.649l-8.1-4.675v-.989l13.317,1.658v.989Z" transform="translate(711.719 1481.258)" fill="#6a55e5"/>
+      <path id="Caminho_317" data-name="Caminho 317" d="M521.024,323.864l-8.1-4.672,5.22-3.02,8.1,4.678Z" transform="translate(711.719 1479.66)" fill="#b4b0ff"/>
+      <path id="Caminho_318" data-name="Caminho 318" d="M526.227,326.656l-8.1-4.677v-.991l13.317,1.663v.989Z" transform="translate(716.6 1484.44)" fill="#ce5b3f"/>
+      <path id="Caminho_319" data-name="Caminho 319" d="M526.227,326.87l-8.1-4.677,5.227-3.014,8.091,4.677Z" transform="translate(716.6 1482.851)" fill="#ffa791"/>
+      <path id="Caminho_320" data-name="Caminho 320" d="M531.425,329.664l-8.1-4.677V324l13.321,1.661v.989Z" transform="translate(721.486 1487.627)" fill="#ce5b3f"/>
+      <path id="Caminho_321" data-name="Caminho 321" d="M531.425,329.877l-8.1-4.675,5.224-3.015,8.1,4.677Z" transform="translate(721.486 1486.042)" fill="#ffa791"/>
+      <path id="Caminho_322" data-name="Caminho 322" d="M536.62,332.671l-8.1-4.677V327l13.321,1.661v.988Z" transform="translate(726.37 1490.811)" fill="#ce5b3f"/>
+      <path id="Caminho_323" data-name="Caminho 323" d="M536.62,332.882l-8.1-4.675,5.219-3.012,8.1,4.673Z" transform="translate(726.37 1489.233)" fill="#ffa791"/>
+      <path id="Caminho_324" data-name="Caminho 324" d="M541.822,335.678l-8.1-4.675v-.994l13.316,1.662v.994Z" transform="translate(731.255 1493.996)" fill="#ce5b3f"/>
+      <path id="Caminho_325" data-name="Caminho 325" d="M541.822,335.888l-8.1-4.675,5.219-3.011,8.1,4.672Z" transform="translate(731.255 1492.424)" fill="#ffa791"/>
+      <path id="Caminho_326" data-name="Caminho 326" d="M547.016,338.679,538.925,334v-.988l13.316,1.661v.983Z" transform="translate(736.14 1497.179)" fill="#ce5b3f"/>
+      <path id="Caminho_327" data-name="Caminho 327" d="M547.016,338.894l-8.091-4.675,5.22-3.012,8.1,4.673Z" transform="translate(736.14 1495.613)" fill="#ffa791"/>
+      <path id="Caminho_328" data-name="Caminho 328" d="M551.338,341.169l-7.217-4.159v-.988l12.44,1.142v.994Z" transform="translate(740.92 1500.275)" fill="#ce5b3f"/>
+      <path id="Caminho_329" data-name="Caminho 329" d="M551.338,341.384l-7.217-4.156,5.225-3.015,7.215,4.158Z" transform="translate(740.92 1498.712)" fill="#ffa791"/>
+      <path id="Caminho_330" data-name="Caminho 330" d="M490.883,310.956l-13.806-7.962V302l19.024,4.95v.98Z" transform="translate(678.502 1464.813)" fill="#ce5b3f"/>
+      <path id="Caminho_331" data-name="Caminho 331" d="M490.883,311.168l-13.806-7.959,5.225-3.015,13.8,7.965Z" transform="translate(678.502 1463.188)" fill="#ffa791"/>
+      <path id="Caminho_332" data-name="Caminho 332" d="M493.8,312.647l-8.1-4.675v-.991l13.316,1.66v.993Z" transform="translate(686.147 1469.601)" fill="#ce5b3f"/>
+      <path id="Caminho_333" data-name="Caminho 333" d="M493.8,312.856l-8.1-4.67,5.219-3.014,8.1,4.673Z" transform="translate(686.147 1467.987)" fill="#ffa791"/>
+      <path id="Caminho_334" data-name="Caminho 334" d="M499,315.655l-8.1-4.677v-.994l13.316,1.661v.993Z" transform="translate(691.032 1472.784)" fill="#ce5b3f"/>
+      <path id="Caminho_335" data-name="Caminho 335" d="M499,315.864l-8.1-4.675,5.22-3.012,8.1,4.673Z" transform="translate(691.032 1471.176)" fill="#ffa791"/>
+      <path id="Caminho_336" data-name="Caminho 336" d="M504.2,318.661l-8.1-4.677v-.991l13.322,1.661v.986Z" transform="translate(695.914 1475.971)" fill="#ce5b3f"/>
+      <path id="Caminho_337" data-name="Caminho 337" d="M504.2,318.875l-8.1-4.675,5.227-3.017,8.1,4.678Z" transform="translate(695.914 1474.366)" fill="#ffa791"/>
+      <path id="Caminho_338" data-name="Caminho 338" d="M509.4,321.663l-8.1-4.672V316l13.321,1.665v.991Z" transform="translate(700.799 1479.153)" fill="#ce5b3f"/>
+      <path id="Caminho_339" data-name="Caminho 339" d="M509.4,321.878l-8.1-4.677,5.223-3.011,8.1,4.675Z" transform="translate(700.799 1477.557)" fill="#ffa791"/>
+      <path id="Caminho_340" data-name="Caminho 340" d="M514.6,324.671,506.5,320V319l13.314,1.661v.989Z" transform="translate(705.683 1482.339)" fill="#ce5b3f"/>
+      <path id="Caminho_341" data-name="Caminho 341" d="M514.6,324.884l-8.1-4.675,5.225-3.012,8.089,4.674Z" transform="translate(705.683 1480.747)" fill="#ffa791"/>
+      <path id="Caminho_342" data-name="Caminho 342" d="M519.8,327.679,511.7,323v-.989l13.316,1.66v.989Z" transform="translate(710.568 1485.525)" fill="#ce5b3f"/>
+      <path id="Caminho_343" data-name="Caminho 343" d="M519.8,327.892l-8.1-4.673,5.225-3.015,8.091,4.675Z" transform="translate(710.568 1483.937)" fill="#ffa791"/>
+      <path id="Caminho_344" data-name="Caminho 344" d="M525,330.682l-8.1-4.675v-.988l13.316,1.658v.991Z" transform="translate(715.453 1488.71)" fill="#ce5b3f"/>
+      <path id="Caminho_345" data-name="Caminho 345" d="M525,330.9l-8.1-4.672,5.22-3.015,8.1,4.673Z" transform="translate(715.453 1487.127)" fill="#ffa791"/>
+      <path id="Caminho_346" data-name="Caminho 346" d="M530.2,333.688l-8.1-4.675v-.986l13.316,1.658v.989Z" transform="translate(720.338 1491.895)" fill="#ce5b3f"/>
+      <path id="Caminho_347" data-name="Caminho 347" d="M530.2,333.906l-8.1-4.674,5.219-3.017,8.1,4.675Z" transform="translate(720.338 1490.317)" fill="#ffa791"/>
+      <path id="Caminho_348" data-name="Caminho 348" d="M535.4,336.7l-8.1-4.677v-.991l13.321,1.661v.989Z" transform="translate(725.22 1495.078)" fill="#ce5b3f"/>
+      <path id="Caminho_349" data-name="Caminho 349" d="M535.4,336.911l-8.1-4.675,5.223-3.015,8.1,4.677Z" transform="translate(725.22 1493.506)" fill="#ffa791"/>
+      <path id="Caminho_350" data-name="Caminho 350" d="M540.6,339.7l-8.1-4.67v-.993l13.319,1.655v1Z" transform="translate(730.105 1498.263)" fill="#ce5b3f"/>
+      <path id="Caminho_351" data-name="Caminho 351" d="M540.6,339.916l-8.1-4.672,5.225-3.017,8.094,4.672Z" transform="translate(730.105 1496.696)" fill="#ffa791"/>
+      <path id="Caminho_352" data-name="Caminho 352" d="M548.847,344.38,537.7,338.039v-1l16.372,3.337v.989Z" transform="translate(735.331 1501.743)" fill="#ce5b3f"/>
+      <path id="Caminho_353" data-name="Caminho 353" d="M548.847,344.6,537.7,338.249l5.224-3.017,11.148,6.355Z" transform="translate(735.331 1500.182)" fill="#ffa791"/>
+      <path id="Caminho_354" data-name="Caminho 354" d="M482.85,311.071l-9.809-5.753v-.986l15.034,2.735v.993Z" transform="translate(674.386 1466.955)" fill="#ce5b3f"/>
+      <path id="Caminho_355" data-name="Caminho 355" d="M482.85,311.291l-9.809-5.754,5.225-3.014,9.809,5.749Z" transform="translate(674.386 1465.338)" fill="#ffa791"/>
+      <path id="Caminho_356" data-name="Caminho 356" d="M487.37,313.649l-8.1-4.672v-.991l13.314,1.657v.989Z" transform="translate(680.106 1470.666)" fill="#ce5b3f"/>
+      <path id="Caminho_357" data-name="Caminho 357" d="M487.37,313.866l-8.1-4.673,5.219-3.017,8.1,4.674Z" transform="translate(680.106 1469.053)" fill="#ffa791"/>
+      <path id="Caminho_358" data-name="Caminho 358" d="M492.568,316.651l-8.094-4.67v-.989l13.314,1.66v.989Z" transform="translate(684.991 1473.849)" fill="#ce5b3f"/>
+      <path id="Caminho_359" data-name="Caminho 359" d="M492.568,316.873l-8.094-4.677,5.217-3.014,8.1,4.674Z" transform="translate(684.991 1472.244)" fill="#ffa791"/>
+      <path id="Caminho_360" data-name="Caminho 360" d="M540.925,344.686l-51.256-29.7V314l56.474,26.681v.991Z" transform="translate(693.919 1481.182)" fill="#ce5b3f"/>
+      <path id="Caminho_361" data-name="Caminho 361" d="M540.925,344.9,489.67,315.205l5.225-3.017,51.249,29.7Z" transform="translate(693.919 1479.576)" fill="#ffa791"/>
+      <path id="Caminho_362" data-name="Caminho 362" d="M528.967,337.7l-8.1-4.673v-.993l13.316,1.66v.991Z" transform="translate(719.181 1496.142)" fill="#ce5b3f"/>
+      <path id="Caminho_363" data-name="Caminho 363" d="M528.967,337.911l-8.1-4.672,5.22-3.011,8.1,4.67Z" transform="translate(719.181 1494.574)" fill="#ffa791"/>
+      <path id="Caminho_364" data-name="Caminho 364" d="M534.165,340.713l-8.1-4.677v-1L539.39,336.7v.991Z" transform="translate(724.063 1499.326)" fill="#ce5b3f"/>
+      <path id="Caminho_365" data-name="Caminho 365" d="M534.165,340.919l-8.1-4.675,5.225-3.01,8.1,4.675Z" transform="translate(724.063 1497.763)" fill="#ffa791"/>
+      <path id="Caminho_366" data-name="Caminho 366" d="M539.364,343.71l-8.1-4.672v-.989l13.321,1.661v.989Z" transform="translate(728.948 1502.512)" fill="#ce5b3f"/>
+      <path id="Caminho_367" data-name="Caminho 367" d="M539.364,343.929l-8.1-4.675,5.219-3.014,8.1,4.675Z" transform="translate(728.948 1500.954)" fill="#ffa791"/>
+      <path id="Caminho_368" data-name="Caminho 368" d="M542.875,345.716l-6.406-3.673v-.989l11.627.654v.991Z" transform="translate(733.646 1505.515)" fill="#ce5b3f"/>
+      <path id="Caminho_369" data-name="Caminho 369" d="M542.875,345.93l-6.406-3.671,5.219-3.014,6.408,3.668Z" transform="translate(733.646 1503.962)" fill="#ffa791"/>
+      <g id="Grupo_161" data-name="Grupo 161" transform="translate(1218.189 1728.595)">
+        <g id="Grupo_158" data-name="Grupo 158" transform="translate(0.015 8.287)">
+          <path id="Caminho_370" data-name="Caminho 370" d="M502.232,294.954h0V287.1l5.635,2.833,9.9-5.722a12.947,12.947,0,0,1,11.681,0l99.546,57.473,5.664-2.768v7.763h0c.123,1.31-.663,2.638-2.4,3.643l-13.144,7.587a12.915,12.915,0,0,1-11.676,0L504.631,298.552C502.92,297.562,502.127,296.246,502.232,294.954Z" transform="translate(-502.222 -282.823)" fill="#ffa791"/>
+        </g>
+        <g id="Grupo_159" data-name="Grupo 159" transform="translate(111.235 58.178)">
+          <path id="Caminho_371" data-name="Caminho 371" d="M584.521,321.738l5.664-2.768v7.763h0c.123,1.31-.663,2.638-2.4,3.643l-13.144,7.587a11.905,11.905,0,0,1-5.675,1.386V312.763Z" transform="translate(-568.969 -312.763)" fill="#e66748"/>
+        </g>
+        <g id="Grupo_160" data-name="Grupo 160">
+          <path id="Caminho_372" data-name="Caminho 372" d="M619.125,352.933a12.9,12.9,0,0,1-11.676,0L504.637,293.579c-3.231-1.868-3.231-4.886,0-6.742l13.137-7.588a12.884,12.884,0,0,1,11.681,0L632.268,338.6c3.221,1.863,3.221,4.881,0,6.744Z" transform="translate(-502.214 -277.849)" fill="#ee6e4e"/>
+        </g>
+      </g>
+      <g id="Grupo_164" data-name="Grupo 164" transform="translate(1254.447 1709.229)">
+        <g id="Grupo_162" data-name="Grupo 162" transform="translate(7.167)">
+          <path id="Caminho_373" data-name="Caminho 373" d="M569.307,337.571l7.171-4.054V296.849l-46.237-26.694Z" transform="translate(-530.241 -270.155)" fill="#e66748"/>
+        </g>
+        <g id="Grupo_163" data-name="Grupo 163" transform="translate(0 4.06)">
+          <path id="Caminho_374" data-name="Caminho 374" d="M525.94,309.259l46.232,26.689V299.282l-46.232-26.69Z" transform="translate(-525.94 -272.592)" fill="#ffa791"/>
+        </g>
+      </g>
+      <g id="Grupo_165" data-name="Grupo 165" transform="translate(1204.207 1452.932)">
+        <path id="Caminho_375" data-name="Caminho 375" d="M480.24,158.068l6.722-3.839a1.932,1.932,0,0,1,.465-.262v0h0a2.815,2.815,0,0,1,2.4.387l193.489,111.71a8.292,8.292,0,0,1,3.754,6.507V421.15a2.637,2.637,0,0,1-1.1,2.433,2.265,2.265,0,0,1-.31.142l-6.692,3.846-1.388-7.238,1.995.83L489.825,311.61a8.3,8.3,0,0,1-3.754-6.51V162.119Z" transform="translate(-480.24 -153.839)" fill="#e66748"/>
+      </g>
+      <g id="Grupo_166" data-name="Grupo 166" transform="translate(1204.207 1452.932)">
+        <path id="Caminho_376" data-name="Caminho 376" d="M486.962,154.229a1.932,1.932,0,0,1,.465-.262v0h0a2.815,2.815,0,0,1,2.4.387l193.489,111.71a7.409,7.409,0,0,1,2.366,2.358L556.336,350.01l-66.511-38.4a8.3,8.3,0,0,1-3.754-6.51V162.119l-5.831-4.051Z" transform="translate(-480.24 -153.839)" fill="#ffa791"/>
+      </g>
+      <g id="Grupo_167" data-name="Grupo 167" transform="translate(1203.084 1456.9)">
+        <path id="Caminho_377" data-name="Caminho 377" d="M479.566,307.49A8.3,8.3,0,0,0,483.325,314L676.806,425.7c2.079,1.2,3.763.227,3.763-2.165V274.948a8.3,8.3,0,0,0-3.763-6.507L483.325,156.733c-2.08-1.2-3.759-.225-3.759,2.17Z" transform="translate(-479.566 -156.22)" fill="#ffa791"/>
+      </g>
+      <g id="Grupo_168" data-name="Grupo 168" transform="translate(1206.731 1463.533)">
+        <path id="Caminho_378" data-name="Caminho 378" d="M481.755,293.953l193.7,111.832V272.033L481.755,160.2Z" transform="translate(-481.755 -160.201)" fill="#f6f5fb"/>
+      </g>
+      <g id="Grupo_188" data-name="Grupo 188" transform="translate(1256.469 1561.358)">
+        <g id="Grupo_187" data-name="Grupo 187">
+          <g id="Grupo_181" data-name="Grupo 181" opacity="0.4">
+            <g id="Grupo_180" data-name="Grupo 180">
+              <g id="Grupo_179" data-name="Grupo 179">
+                <g id="Grupo_169" data-name="Grupo 169" transform="translate(0 85.597)">
+                  <path id="Caminho_379" data-name="Caminho 379" d="M626.46,308.634,523.424,249.148v-.853L626.46,307.783Z" transform="translate(-523.424 -248.295)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_170" data-name="Grupo 170" transform="translate(0 76.148)">
+                  <path id="Caminho_380" data-name="Caminho 380" d="M626.46,302.966,523.424,243.478v-.854L626.46,302.115Z" transform="translate(-523.424 -242.624)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_171" data-name="Grupo 171" transform="translate(0 66.704)">
+                  <path id="Caminho_381" data-name="Caminho 381" d="M626.46,297.3,523.424,237.81v-.854l103.037,59.49Z" transform="translate(-523.424 -236.956)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_172" data-name="Grupo 172" transform="translate(0 57.258)">
+                  <path id="Caminho_382" data-name="Caminho 382" d="M626.46,291.629,523.424,232.141v-.854L626.46,290.775Z" transform="translate(-523.424 -231.288)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_173" data-name="Grupo 173" transform="translate(0 47.813)">
+                  <path id="Caminho_383" data-name="Caminho 383" d="M626.46,285.958,523.424,226.472v-.852L626.46,285.1Z" transform="translate(-523.424 -225.62)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_174" data-name="Grupo 174" transform="translate(0 38.365)">
+                  <path id="Caminho_384" data-name="Caminho 384" d="M626.46,280.288,523.424,220.8v-.852L626.46,279.438Z" transform="translate(-523.424 -219.95)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_175" data-name="Grupo 175" transform="translate(0 28.918)">
+                  <path id="Caminho_385" data-name="Caminho 385" d="M626.46,274.621,523.424,215.132v-.852L626.46,273.768Z" transform="translate(-523.424 -214.28)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_176" data-name="Grupo 176" transform="translate(0 18.893)">
+                  <path id="Caminho_386" data-name="Caminho 386" d="M626.46,268.6,523.424,209.117v-.853L626.46,267.751Z" transform="translate(-523.424 -208.264)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_177" data-name="Grupo 177" transform="translate(0 9.448)">
+                  <path id="Caminho_387" data-name="Caminho 387" d="M626.46,262.936,523.424,203.448V202.6L626.46,262.084Z" transform="translate(-523.424 -202.596)" fill="#c7c3e2"/>
+                </g>
+                <g id="Grupo_178" data-name="Grupo 178">
+                  <path id="Caminho_388" data-name="Caminho 388" d="M626.46,257.268,523.424,197.779v-.854L626.46,256.415Z" transform="translate(-523.424 -196.926)" fill="#c7c3e2"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Grupo_182" data-name="Grupo 182" transform="translate(1.828 32.952)">
+            <path id="Caminho_389" data-name="Caminho 389" d="M625.087,329.814,610.564,257.3l-12.7,16.551-11.806-26.5-11.4-7.537-11.57-19.706L552.3,261.69l-13.633-25.666-12.909,35.807-1.238-.444,13.918-38.6,13.44,25.3L562.6,216.7l13.028,22.184,11.466,7.578L598.166,271.3l13.121-17.1,15.088,75.359Z" transform="translate(-524.521 -216.701)" fill="#f23096"/>
+          </g>
+          <g id="Grupo_183" data-name="Grupo 183" transform="translate(1.839 53.762)">
+            <path id="Caminho_390" data-name="Caminho 390" d="M625.084,321.5,610.626,254.4l-12.7,20.962-11.752-25.626L574.8,251.11l-11.908-19.247-10.735,21.011-13.479-20.493L525.74,263.543l-1.212-.506,13.891-33.447,13.594,20.674,10.771-21.075,12.694,20.517,11.5-1.393,11.117,24.243,13.126-21.669,15.155,70.34Z" transform="translate(-524.527 -229.189)" fill="#f2e941"/>
+          </g>
+          <g id="Grupo_185" data-name="Grupo 185" transform="translate(1.901 67.086)">
+            <g id="Grupo_184" data-name="Grupo 184">
+              <path id="Caminho_391" data-name="Caminho 391" d="M625.085,316.265l-14.639-39.5-12.883.727-11.22-26.113-11.265,12.167L562.615,248.08l-10.7,4.7-13.3-13.529-12.961,19.077-1.089-.741,13.866-20.405,13.783,14.03,10.8-4.743,12.141,15.065L586.755,249l11.653,27.127,12.934-.731,14.976,40.41Z" transform="translate(-524.564 -237.186)" fill="#8970f2"/>
+            </g>
+          </g>
+          <g id="Grupo_186" data-name="Grupo 186" transform="translate(2.072 77.705)">
+            <path id="Caminho_392" data-name="Caminho 392" d="M625.059,312.112l-14.642-26.155-12.951-1.5L586.111,258.57,574.86,261.8,562.7,249.944l-10.753,8.7-13.571-13.384-12.961,8.994-.75-1.079,13.858-9.617,13.51,13.324,10.75-8.7,12.449,12.141,11.619-3.337,11.513,26.253,12.873,1.487L626.2,311.468Z" transform="translate(-524.667 -243.559)" fill="#f438b1"/>
+          </g>
+        </g>
+        <path id="Caminho_393" data-name="Caminho 393" d="M526.673,250.227c0,1.065-.625,1.925-1.39,1.925s-1.393-.86-1.393-1.925.625-1.925,1.393-1.925S526.673,249.165,526.673,250.227Z" transform="translate(-523.113 -162.693)" fill="#fcfcfc"/>
+        <path id="Caminho_394" data-name="Caminho 394" d="M534.857,245.246c0,1.061-.623,1.923-1.391,1.923s-1.393-.861-1.393-1.923.623-1.925,1.393-1.925S534.857,244.184,534.857,245.246Z" transform="translate(-517.661 -166.012)" fill="#fcfcfc"/>
+        <path id="Caminho_395" data-name="Caminho 395" d="M534.857,238.423c0,1.061-.623,1.925-1.391,1.925s-1.393-.863-1.393-1.925.623-1.925,1.393-1.925S534.857,237.358,534.857,238.423Z" transform="translate(-517.661 -170.558)" fill="#fcfcfc"/>
+        <path id="Caminho_396" data-name="Caminho 396" d="M534.857,231.113c0,1.061-.623,1.923-1.391,1.923s-1.393-.862-1.393-1.923.623-1.923,1.393-1.923S534.857,230.051,534.857,231.113Z" transform="translate(-517.661 -175.428)" fill="#fcfcfc"/>
+        <path id="Caminho_397" data-name="Caminho 397" d="M534.857,228.058c0,1.06-.623,1.921-1.391,1.921s-1.393-.861-1.393-1.921.623-1.925,1.393-1.925S534.857,226.994,534.857,228.058Z" transform="translate(-517.661 -177.465)" fill="#fcfcfc"/>
+        <path id="Caminho_398" data-name="Caminho 398" d="M549.383,218.626c0,1.061-.621,1.923-1.39,1.923s-1.391-.862-1.391-1.923.62-1.925,1.391-1.925S549.383,217.563,549.383,218.626Z" transform="translate(-507.98 -183.749)" fill="#fcfcfc"/>
+        <path id="Caminho_399" data-name="Caminho 399" d="M549.692,230.712c0,1.061-.622,1.923-1.39,1.923s-1.391-.861-1.391-1.923.621-1.925,1.391-1.925S549.692,229.648,549.692,230.712Z" transform="translate(-507.774 -175.696)" fill="#fcfcfc"/>
+        <path id="Caminho_400" data-name="Caminho 400" d="M549.372,244.091c0,1.063-.623,1.925-1.391,1.925s-1.391-.861-1.391-1.925.622-1.925,1.391-1.925S549.372,243.029,549.372,244.091Z" transform="translate(-507.988 -166.781)" fill="#fcfcfc"/>
+        <path id="Caminho_401" data-name="Caminho 401" d="M549.372,247.918c0,1.061-.623,1.923-1.391,1.923s-1.391-.861-1.391-1.923.622-1.926,1.391-1.926S549.372,246.857,549.372,247.918Z" transform="translate(-507.988 -164.232)" fill="#fcfcfc"/>
+        <path id="Caminho_402" data-name="Caminho 402" d="M556.815,254.876c0,1.063-.622,1.925-1.391,1.925s-1.39-.861-1.39-1.925.621-1.925,1.39-1.925S556.815,253.816,556.815,254.876Z" transform="translate(-503.028 -159.595)" fill="#fcfcfc"/>
+        <path id="Caminho_403" data-name="Caminho 403" d="M556.815,252.869c0,1.06-.622,1.921-1.391,1.921s-1.39-.861-1.39-1.921.621-1.925,1.39-1.925S556.815,251.806,556.815,252.869Z" transform="translate(-503.028 -160.933)" fill="#fcfcfc"/>
+        <path id="Caminho_404" data-name="Caminho 404" d="M556.815,242.61c0,1.066-.622,1.925-1.391,1.925s-1.39-.858-1.39-1.925.621-1.925,1.39-1.925S556.815,241.55,556.815,242.61Z" transform="translate(-503.028 -167.768)" fill="#fcfcfc"/>
+        <path id="Caminho_405" data-name="Caminho 405" d="M556.815,231.113c0,1.061-.622,1.923-1.391,1.923s-1.39-.862-1.39-1.923.621-1.923,1.39-1.923S556.815,230.051,556.815,231.113Z" transform="translate(-503.028 -175.428)" fill="#fcfcfc"/>
+        <path id="Caminho_406" data-name="Caminho 406" d="M563.72,235.724c0,1.061-.625,1.925-1.395,1.925s-1.39-.863-1.39-1.925.623-1.925,1.39-1.925S563.72,234.66,563.72,235.724Z" transform="translate(-498.43 -172.357)" fill="#fcfcfc"/>
+        <path id="Caminho_407" data-name="Caminho 407" d="M563.72,241.782c0,1.061-.625,1.923-1.395,1.923s-1.39-.861-1.39-1.923.623-1.926,1.39-1.926S563.72,240.721,563.72,241.782Z" transform="translate(-498.43 -168.321)" fill="#fcfcfc"/>
+        <path id="Caminho_408" data-name="Caminho 408" d="M563.72,245.861c0,1.063-.625,1.921-1.395,1.921s-1.39-.858-1.39-1.921.623-1.926,1.39-1.926S563.72,244.8,563.72,245.861Z" transform="translate(-498.43 -165.603)" fill="#fcfcfc"/>
+        <path id="Caminho_409" data-name="Caminho 409" d="M563.72,253.206c0,1.06-.625,1.923-1.395,1.923s-1.39-.863-1.39-1.923.623-1.925,1.39-1.925S563.72,252.141,563.72,253.206Z" transform="translate(-498.43 -160.708)" fill="#fcfcfc"/>
+        <path id="Caminho_410" data-name="Caminho 410" d="M570.671,268.691c0,1.06-.625,1.923-1.393,1.923s-1.391-.863-1.391-1.923.623-1.925,1.391-1.925S570.671,267.627,570.671,268.691Z" transform="translate(-493.797 -150.39)" fill="#fcfcfc"/>
+        <path id="Caminho_411" data-name="Caminho 411" d="M570.671,261.686c0,1.061-.625,1.923-1.393,1.923s-1.391-.862-1.391-1.923.623-1.925,1.391-1.925S570.671,260.623,570.671,261.686Z" transform="translate(-493.797 -155.058)" fill="#fcfcfc"/>
+        <path id="Caminho_412" data-name="Caminho 412" d="M570.671,256.5c0,1.063-.625,1.926-1.393,1.926s-1.391-.863-1.391-1.926.623-1.925,1.391-1.925S570.671,255.444,570.671,256.5Z" transform="translate(-493.797 -158.51)" fill="#fcfcfc"/>
+        <path id="Caminho_413" data-name="Caminho 413" d="M570.671,250.9c0,1.061-.625,1.923-1.393,1.923s-1.391-.862-1.391-1.923.623-1.925,1.391-1.925S570.671,249.832,570.671,250.9Z" transform="translate(-493.797 -162.246)" fill="#fcfcfc"/>
+        <path id="Caminho_414" data-name="Caminho 414" d="M578.314,240.733c0,1.06-.625,1.921-1.393,1.921s-1.393-.862-1.393-1.921.623-1.925,1.393-1.925S578.314,239.671,578.314,240.733Z" transform="translate(-488.706 -169.019)" fill="#fcfcfc"/>
+        <path id="Caminho_415" data-name="Caminho 415" d="M578.314,243.765c0,1.061-.625,1.925-1.393,1.925s-1.393-.863-1.393-1.925.623-1.925,1.393-1.925S578.314,242.7,578.314,243.765Z" transform="translate(-488.706 -166.999)" fill="#fcfcfc"/>
+        <path id="Caminho_416" data-name="Caminho 416" d="M578.314,261.5c0,1.065-.625,1.928-1.393,1.928s-1.393-.863-1.393-1.928.623-1.923,1.393-1.923S578.314,260.439,578.314,261.5Z" transform="translate(-488.706 -155.181)" fill="#fcfcfc"/>
+        <path id="Caminho_417" data-name="Caminho 417" d="M578.314,269.423c0,1.061-.625,1.926-1.393,1.926s-1.393-.865-1.393-1.926.623-1.923,1.393-1.923S578.314,268.36,578.314,269.423Z" transform="translate(-488.706 -149.901)" fill="#fcfcfc"/>
+        <path id="Caminho_418" data-name="Caminho 418" d="M587.209,285c0,1.065-.625,1.925-1.393,1.925s-1.393-.86-1.393-1.925.623-1.925,1.393-1.925S587.209,283.943,587.209,285Z" transform="translate(-482.779 -139.521)" fill="#fcfcfc"/>
+        <path id="Caminho_419" data-name="Caminho 419" d="M543.14,246.607c0,1.061-.622,1.921-1.39,1.921s-1.4-.86-1.4-1.921.625-1.923,1.4-1.923S543.14,245.544,543.14,246.607Z" transform="translate(-512.143 -165.104)" fill="#fcfcfc"/>
+        <path id="Caminho_420" data-name="Caminho 420" d="M542.82,243.547c0,1.065-.623,1.926-1.39,1.926s-1.391-.862-1.391-1.926.622-1.921,1.391-1.921S542.82,242.488,542.82,243.547Z" transform="translate(-512.353 -167.141)" fill="#fcfcfc"/>
+        <path id="Caminho_421" data-name="Caminho 421" d="M542.82,252.566c0,1.061-.623,1.923-1.39,1.923s-1.391-.861-1.391-1.923.622-1.923,1.391-1.923S542.82,251.5,542.82,252.566Z" transform="translate(-512.353 -161.133)" fill="#fcfcfc"/>
+      </g>
+      <g id="Grupo_189" data-name="Grupo 189" transform="translate(1206.731 1463.533)">
+        <path id="Caminho_422" data-name="Caminho 422" d="M483.651,161.3V292.477L675.458,403.214v2.571l-193.7-111.832V160.2Z" transform="translate(-481.755 -160.201)" fill="#e66748"/>
+      </g>
+      <path id="Caminho_423" data-name="Caminho 423" d="M479.563,150.363v74.212l96.282,55.588V205.951Z" transform="translate(688.342 1296.778)" fill="#efefef"/>
+      <path id="Caminho_424" data-name="Caminho 424" d="M467.569,206.98l107.357,61.983V194.75L467.569,132.767Z" transform="translate(677.65 1285.053)" fill="#f69077"/>
+      <path id="Caminho_425" data-name="Caminho 425" d="M467.567,177.586,574.926,239.57l0-2.952L467.571,174.635Z" transform="translate(677.648 1331.87)" fill="#1c0687"/>
+      <path id="Caminho_426" data-name="Caminho 426" d="M516.369,205.761l26.04,15.035,0-2.952L516.369,202.81Z" transform="translate(716.257 1360.017)" fill="#ff3956"/>
+      <path id="Caminho_427" data-name="Caminho 427" d="M487.32,172.366c0,13.244,9.3,29.351,20.766,35.972s20.767,1.253,20.767-11.991-9.3-29.349-20.767-35.971S487.32,159.124,487.32,172.366Z" transform="translate(690.193 1301.56)" fill="#fff"/>
+      <path id="Caminho_428" data-name="Caminho 428" d="M495.271,166.083l13.308,17.753-13.308,2.955Z" transform="translate(695.133 1307.252)" fill="#ff3956"/>
+      <g id="Grupo_200" data-name="Grupo 200" transform="translate(1022.926 1475.712)">
+        <g id="Grupo_199" data-name="Grupo 199">
+          <path id="Caminho_430" data-name="Caminho 430" d="M413.47,406.165l-7.149-4.485,0-174.987,102.509-59.184,7.91,4.043Z" transform="translate(-406.321 -167.509)" fill="#e66748"/>
+        </g>
+      </g>
+      <g id="Grupo_203" data-name="Grupo 203" transform="translate(1020.455 1579.505)">
+        <g id="Grupo_202" data-name="Grupo 202">
+          <g id="Grupo_201" data-name="Grupo 201">
+            <path id="Caminho_431" data-name="Caminho 431" d="M406.323,203.053l0,174.987,7.149,4.485L474,245.01l-67.566-42.022Z" transform="translate(-406.321 -202.988)" fill="#ffa791"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_205" data-name="Grupo 205" transform="translate(1031.044 1479.754)">
+        <g id="Grupo_204" data-name="Grupo 204">
+          <path id="Caminho_432" data-name="Caminho 432" d="M513.884,344.92,410.611,404.548V229.562l103.273-59.626Z" transform="translate(-410.611 -169.936)" fill="#f6f5fb"/>
+        </g>
+      </g>
+      <g id="Grupo_222" data-name="Grupo 222" transform="translate(1039.86 1644.908)">
+        <g id="Grupo_213" data-name="Grupo 213">
+          <g id="Grupo_212" data-name="Grupo 212">
+            <g id="Grupo_206" data-name="Grupo 206" transform="translate(0 5.425)">
+              <path id="Caminho_433" data-name="Caminho 433" d="M462.547,244.864l-46.434,26.809v-3.616l46.434-26.808Z" transform="translate(-416.113 -241.25)" fill="#f23096"/>
+            </g>
+            <g id="Grupo_207" data-name="Grupo 207">
+              <path id="Caminho_434" data-name="Caminho 434" d="M485.5,239.2,416.113,279.26v-1.206l69.388-40.06Z" transform="translate(-416.113 -237.994)" fill="#b7abff"/>
+            </g>
+            <g id="Grupo_208" data-name="Grupo 208" transform="translate(0 5.025)">
+              <path id="Caminho_435" data-name="Caminho 435" d="M485.5,242.214l-69.388,40.062v-1.2L485.5,241.01Z" transform="translate(-416.113 -241.01)" fill="#b7abff"/>
+            </g>
+            <g id="Grupo_209" data-name="Grupo 209" transform="translate(0 10.052)">
+              <path id="Caminho_436" data-name="Caminho 436" d="M485.5,245.229l-69.388,40.065v-1.207l69.388-40.06Z" transform="translate(-416.113 -244.026)" fill="#b7abff"/>
+            </g>
+            <g id="Grupo_210" data-name="Grupo 210" transform="translate(0 15.078)">
+              <path id="Caminho_437" data-name="Caminho 437" d="M485.5,248.249,416.113,288.31V287.1L485.5,247.043Z" transform="translate(-416.113 -247.043)" fill="#b7abff"/>
+            </g>
+            <g id="Grupo_211" data-name="Grupo 211" transform="translate(0 20.102)">
+              <path id="Caminho_438" data-name="Caminho 438" d="M485.5,251.265l-69.388,40.062v-1.2L485.5,250.058Z" transform="translate(-416.113 -250.058)" fill="#b7abff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Grupo_221" data-name="Grupo 221" transform="translate(0 35.631)">
+          <g id="Grupo_220" data-name="Grupo 220">
+            <g id="Grupo_214" data-name="Grupo 214" transform="translate(0 5.432)">
+              <path id="Caminho_439" data-name="Caminho 439" d="M462.547,266.251l-46.434,26.808v-3.616l46.434-26.806Z" transform="translate(-416.113 -262.637)" fill="#f23096"/>
+            </g>
+            <g id="Grupo_215" data-name="Grupo 215">
+              <path id="Caminho_440" data-name="Caminho 440" d="M485.5,260.581l-69.388,40.065V299.44L485.5,259.377Z" transform="translate(-416.113 -259.377)" fill="#b7abff"/>
+            </g>
+            <g id="Grupo_216" data-name="Grupo 216" transform="translate(0 5.028)">
+              <path id="Caminho_441" data-name="Caminho 441" d="M485.5,263.6,416.113,303.66v-1.2L485.5,262.395Z" transform="translate(-416.113 -262.395)" fill="#b7abff"/>
+            </g>
+            <g id="Grupo_217" data-name="Grupo 217" transform="translate(0 10.055)">
+              <path id="Caminho_442" data-name="Caminho 442" d="M485.5,266.615l-69.388,40.062v-1.206l69.388-40.06Z" transform="translate(-416.113 -265.411)" fill="#b7abff"/>
+            </g>
+            <g id="Grupo_218" data-name="Grupo 218" transform="translate(0 15.08)">
+              <path id="Caminho_443" data-name="Caminho 443" d="M485.5,269.634,416.113,309.7V308.49L485.5,268.427Z" transform="translate(-416.113 -268.427)" fill="#b7abff"/>
+            </g>
+            <g id="Grupo_219" data-name="Grupo 219" transform="translate(0 20.108)">
+              <path id="Caminho_444" data-name="Caminho 444" d="M485.5,272.647,416.113,312.71v-1.2L485.5,271.444Z" transform="translate(-416.113 -271.444)" fill="#b7abff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Caminho_445" data-name="Caminho 445" d="M541.152,328.066c-7.727,4.461-20.252,4.461-27.979,0s-7.725-11.693,0-16.153,20.253-4.459,27.977,0S548.877,323.606,541.152,328.066Z" transform="translate(709.142 1473.995)" fill="#eaeaea"/>
+      <g id="Grupo_226" data-name="Grupo 226" transform="translate(1278.248 1889.639)">
+        <g id="Grupo_225" data-name="Grupo 225">
+          <path id="Caminho_446" data-name="Caminho 446" d="M614.1,401.524c1.353-.628,2.656-1.3,3.916-2.028a41.762,41.762,0,0,0,3.519-2.268,37.139,37.139,0,0,0,0-4.064c-3.194-3.183-7.25-2.891-6.107-4.186,1.228-1.406,8.608-1.673,15.162-2.076a17.2,17.2,0,0,0,1.581-5.882c-.115-.03.118-4.037,0-4.066-5.929-1.533-12.879.918-13.284-.585-.423-1.518,5.292-4.217,10.193-6.775-.055-.087,0-4.066,0-4.066-6.452.792-18.271.613-20.231-.518s-.137-5.275,1.236-9v-4.067c-4.422,2.834-18.281,7.515-20.921,7.267-2.663-.243-5.359-4.2-8.052-7.67a81.441,81.441,0,0,0-10.2.918c-.685,3.784-1.158,8.035-3.588,8.75-2.348.69-8.56-1.626-14.3-3.529-1.346.63-6.177-.5-7.437.225v4.068c3.3,3.311,7.3,6.9,6.115,8.255-1.243,1.408-9.756,2.053-16.318,2.456-.9,1.933-.257,3.524-.43,5.5,6.01,1.555,12.874,3.109,13.3,4.649.382,1.42-5.586.332-10.213,2.713v4.068a26.83,26.83,0,0,0,4.647,5.3c6.447-.8,13.63-1.853,15.6-.716,1.8,1.036.053,1.476-1.251,4.934-.118.31.113,3.754,0,4.066a66.53,66.53,0,0,0,9.185,2.684c4.427-2.828,9.1-6.129,11.746-5.894,2.664.247,5.354,4.206,8.04,7.678a82.289,82.289,0,0,0,10.2-.915c.7-3.786,1.151-8.043,3.6-8.757C602.142,397.309,608.366,399.622,614.1,401.524Zm-47.5-12.118c-9.381-5.419-9.386-14.19-.01-19.6s24.581-5.417,33.961,0,9.368,14.19-.008,19.6S575.973,394.82,566.593,389.406Z" transform="translate(-534.893 -351.539)" fill="#294c5b"/>
+        </g>
+      </g>
+      <g id="Grupo_228" data-name="Grupo 228" transform="translate(1278.307 1885.571)">
+        <g id="Grupo_227" data-name="Grupo 227">
+          <path id="Caminho_447" data-name="Caminho 447" d="M614.072,399.084q2.03-.942,3.916-2.028t3.519-2.266c-3.289-3.309-7.3-6.9-6.107-8.253,1.228-1.406,8.608-1.668,15.162-2.073a17.217,17.217,0,0,0,1.581-5.884c-6.016-1.563-12.871-3.118-13.284-4.652-.423-1.516,5.292-4.216,10.193-6.774a26.187,26.187,0,0,0-4.651-5.3c-6.452.791-13.62,1.848-15.58.718s-.137-5.276,1.236-9a66.8,66.8,0,0,0-9.185-2.684c-4.421,2.834-9.1,6.134-11.736,5.887-2.663-.245-5.359-4.206-8.052-7.673a81.768,81.768,0,0,0-10.2.918c-.685,3.784-1.158,8.038-3.588,8.75-2.348.692-8.56-1.625-14.3-3.529-1.346.633-2.668,1.3-3.926,2.031s-2.416,1.485-3.511,2.261c3.3,3.313,7.3,6.907,6.115,8.257-1.243,1.4-8.6,1.673-15.162,2.076a17.507,17.507,0,0,0-1.586,5.887c6.01,1.55,12.874,3.1,13.3,4.646.411,1.528-5.307,4.227-10.213,6.779a26.837,26.837,0,0,0,4.647,5.3c6.447-.795,13.63-1.85,15.6-.718s.127,5.279-1.251,9a66.532,66.532,0,0,0,9.185,2.684c4.427-2.828,9.1-6.13,11.746-5.892,2.664.243,5.354,4.2,8.04,7.678a81.956,81.956,0,0,0,10.2-.92c.7-3.783,1.151-8.042,3.6-8.755C602.117,394.868,608.341,397.183,614.072,399.084Zm-47.5-12.119c-9.381-5.416-9.386-14.189-.01-19.6s24.581-5.417,33.961,0,9.368,14.189-.008,19.6S575.948,392.379,566.568,386.965Z" transform="translate(-534.93 -349.098)" fill="#4f839a"/>
+        </g>
+      </g>
+      <g id="Grupo_232" data-name="Grupo 232" transform="translate(1375.267 1846.354)">
+        <g id="Grupo_231" data-name="Grupo 231">
+          <g id="Grupo_230" data-name="Grupo 230">
+            <path id="Caminho_448" data-name="Caminho 448" d="M632.541,370.344c.848-.393,1.666-.815,2.456-1.271s1.525-.931,2.208-1.418c0,0,.093-3.661,0-3.751-2-2-4.549-.617-3.831-1.428.77-.881,5.4-1.048,9.51-1.3a10.792,10.792,0,0,0,.993-3.691c-.073-.02.073-3.729,0-3.749-3.719-.961-8.08,1.773-8.335.833s3.321-2.646,6.4-4.247c-.033-.057,0-3.751,0-3.751-4.047.495-11.463,1.583-12.689.873s-.085-3.309.773-5.646v-3.751c-2.773,1.778-11.466,5.912-13.122,5.757s-3.361-2.634-5.051-4.811a51.061,51.061,0,0,0-6.4.575c-.432,2.376-.727,5.041-2.251,5.491-1.471.433-5.371-1.02-8.97-2.216-.845.395-3.873-1.515-4.662-1.056v3.749c2.068,2.078,4.577,4.334,3.833,5.181-.778.883-6.387.99-10.5,1.245,0,0,.11,2.5,0,3.748,3.771.973,8.075,1.946,8.345,2.916.238.887-3.5-.991-6.407.5v3.751a16.8,16.8,0,0,0,2.916,3.326c4.043-.5,8.482-1.025,9.785-.448.352.157.033-.273-.785,1.895-.075.193.072,3.556,0,3.751a41.108,41.108,0,0,0,5.761,1.681c2.776-1.771,5.71-3.842,7.368-3.694s3.358,2.638,5.042,4.817a51.472,51.472,0,0,0,6.4-.577c.44-2.373.723-5.046,2.256-5.491C625.041,367.7,628.947,369.154,632.541,370.344Zm-29.8-7.6c-5.885-3.4-5.889-8.9,0-12.292s15.418-3.4,21.3,0,5.875,8.9-.007,12.292S608.626,366.141,602.744,362.744Z" transform="translate(-582.898 -338.047)" fill="#294c5b"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_234" data-name="Grupo 234" transform="translate(1375.267 1842.65)">
+        <g id="Grupo_233" data-name="Grupo 233">
+          <path id="Caminho_449" data-name="Caminho 449" d="M632.541,367.716c.848-.395,1.666-.815,2.456-1.273s1.525-.93,2.208-1.418c-2.063-2.078-4.582-4.327-3.831-5.177.77-.881,5.4-1.05,9.51-1.3a10.792,10.792,0,0,0,.993-3.691c-3.774-.978-8.075-1.953-8.335-2.918s3.321-2.644,6.4-4.247a16.363,16.363,0,0,0-2.918-3.326c-4.047.495-8.545,1.158-9.771.448s-.085-3.309.773-5.645a42.072,42.072,0,0,0-5.759-1.685c-2.773,1.778-5.707,3.848-7.363,3.691s-3.361-2.633-5.051-4.811a51.361,51.361,0,0,0-6.4.575c-.432,2.376-.727,5.041-2.251,5.49-1.471.433-5.371-1.02-8.97-2.215-.845.395-1.673.816-2.461,1.275s-1.516.928-2.2,1.418c2.068,2.076,4.577,4.332,3.833,5.176-.778.883-5.394,1.053-9.51,1.3a10.971,10.971,0,0,0-.995,3.694c3.771.97,8.075,1.946,8.345,2.913s-3.328,2.651-6.407,4.249a16.851,16.851,0,0,0,2.916,3.328c4.043-.5,8.55-1.161,9.785-.45s.078,3.309-.785,5.646a41.33,41.33,0,0,0,5.761,1.683c2.776-1.771,5.71-3.843,7.368-3.7s3.358,2.638,5.042,4.817a51.784,51.784,0,0,0,6.4-.577c.44-2.373.723-5.044,2.256-5.491C625.041,365.073,628.947,366.524,632.541,367.716Zm-29.8-7.6c-5.885-3.4-5.889-8.9,0-12.3s15.418-3.394,21.3,0,5.875,8.9-.007,12.3S608.626,363.512,602.744,360.116Z" transform="translate(-582.898 -336.364)" fill="#4f839a"/>
+        </g>
+      </g>
+      <path id="Caminho_450" data-name="Caminho 450" d="M520.677,316.357s-.453,3.491-.14,4.291,2.188.632,2.888.435c2.3-.653,7.835-3.4,7.693-5.672-.057-.926-1.456-.838-3.711.218s-3.528.873-3.819.218S520.677,316.357,520.677,316.357Z" transform="translate(718.497 1477.982)" fill="#2d2d2d"/>
+      <path id="Caminho_451" data-name="Caminho 451" d="M508.3,314.112s-.455,3.493-.14,4.294,2.185.63,2.888.432c2.3-.65,7.833-3.4,7.692-5.67-.057-.928-1.455-.838-3.711.217s-3.527.873-3.819.22S508.3,314.112,508.3,314.112Z" transform="translate(706.883 1475.603)" fill="#2d2d2d"/>
+      <g id="Grupo_243" data-name="Grupo 243" transform="translate(1201.516 1645.094)">
+        <path id="Caminho_452" data-name="Caminho 452" d="M504.217,249.672s-4.757,8.523-5.339,26.274c.971,3.4,10.671,1.456,11.739,0s0-4.559,0-4.559h-4.269l1.291-8.532Z" transform="translate(-498.878 -225.885)" fill="#bc4f34"/>
+        <g id="Grupo_242" data-name="Grupo 242" transform="translate(3.496)">
+          <g id="Grupo_237" data-name="Grupo 237" transform="translate(4.164 63.448)">
+            <path id="Caminho_453" data-name="Caminho 453" d="M510.667,340.223c-.212-3.084-1.856-31.658-1.958-32.607a122.29,122.29,0,0,0-3.7-18.564c-1.748-6.847-1.526-15.578-1.526-15.578l15.987.668s-1.133,13.745-.961,30.835c.032,3.2-2.8,31.987-2.828,35.108Z" transform="translate(-503.475 -273.474)" fill="#1c0687"/>
+          </g>
+          <g id="Grupo_238" data-name="Grupo 238" transform="translate(11.726 63.448)">
+            <path id="Caminho_454" data-name="Caminho 454" d="M522.238,309.946c-1.363-3.188-7.35-15.084-8.723-18.09-6.419-12.121-5.451-17.595-5.451-17.595l19.974-.788s1.925,29.2,3.479,35.486c.252,1,1.051,34.271,1.265,35.1l-4.073.387Z" transform="translate(-508.013 -273.474)" fill="#27079b"/>
+          </g>
+          <rect id="Retângulo_8" data-name="Retângulo 8" width="27.171" height="20.681" transform="translate(20.139 36.898) rotate(-60.539)" fill="#e8e8e8"/>
+          <g id="Grupo_239" data-name="Grupo 239" transform="translate(20.626 13.653)">
+            <rect id="Retângulo_9" data-name="Retângulo 9" width="26.423" height="20.03" transform="translate(0 23.007) rotate(-60.54)" fill="#574ad8"/>
+          </g>
+          <g id="Grupo_240" data-name="Grupo 240" transform="translate(22.787 15.987)">
+            <rect id="Retângulo_10" data-name="Retângulo 10" width="22.671" height="17.186" transform="translate(0 19.739) rotate(-60.539)" fill="#f6f5fb"/>
+          </g>
+          <path id="Caminho_455" data-name="Caminho 455" d="M517.971,238.862a4.867,4.867,0,0,1,4.524,3.511,2.67,2.67,0,0,1,.1,1.608,6.959,6.959,0,0,0,.535,3.684c.775,2.115-.718,5.759-2.123,7.53a3,3,0,0,1-3.008-.677l-1.081,3.818-8.5-2.166a15.7,15.7,0,0,0,0-7.725c-1.023-4.686-.643-7.032,2.415-8.593a13.858,13.858,0,0,1,7.137-.99" transform="translate(-496.356 -233.157)" fill="url(#linear-gradient)"/>
+          <g id="Grupo_241" data-name="Grupo 241" transform="translate(8.971)">
+            <path id="Caminho_456" data-name="Caminho 456" d="M522.2,235.4s-2.241,1.506-9.121,1.993-7.114,5.246-6.179,7.677c-2.04.762,2.354,8.217,2.349,11.116a8.586,8.586,0,0,0,6.91-.422,6.264,6.264,0,0,0,.53-4.862c-.871-2.569.743-5.071,1.763-4.376.22.153.533,4.226.708,4.267a2.162,2.162,0,0,0,.508,0c.307-.068-.083-1.111.24-2.868.155-.84,1.256-2.606,1.2-3.078a17.74,17.74,0,0,0-.788-2.488l1.478-.245s1.628.163,1.615-1.393A14.566,14.566,0,0,0,522.2,235.4" transform="translate(-506.36 -235.397)" fill="#1c0687"/>
+          </g>
+          <path id="Caminho_457" data-name="Caminho 457" d="M533.381,258.41s-3.773-4.454-11.657-7.39a38.317,38.317,0,0,0-7.883-1.863s-7.1-.72-10.609.695c-1.993.8-3.448,10.531-.875,16.933s4.277,13.91,2.311,17.516-3.161,14.09-3.161,14.09a26.691,26.691,0,0,0,8.693,3.019s1.815-9.416,2.046-9.416c.125,0,.948,10,.948,10a38.222,38.222,0,0,0,22.24-4.029c-.843-4.734-4.254-13.912-5.159-18.333s3.106-21.219,3.106-21.219" transform="translate(-500.976 -226.35)" fill="#e66748"/>
+          <path id="Caminho_458" data-name="Caminho 458" d="M525.677,265.555a16.91,16.91,0,0,1,0-3.916,3.461,3.461,0,0,0-.685-2.886c-.373-.536.266-1.978,1.441-.7a5.406,5.406,0,0,1,1.338,2.8l2.988-5.289s2.5,5.384-1.743,12.452C526.239,269.445,525.677,265.555,525.677,265.555Z" transform="translate(-485.044 -221.959)" fill="url(#linear-gradient-2)"/>
+          <path id="Caminho_459" data-name="Caminho 459" d="M525.476,263.663a8.132,8.132,0,0,0-1.99-8.512A6.642,6.642,0,0,0,521.853,254c-3.7-1.82-6.242,1.3-6.387,8.017s.557,16.527,4.426,22.764c2.366,3.583,11.828,2.01,16.7-15.222-1.233-1.748-5.627-2.924-5.627-2.924s-4.351,11.058-6.017,9.595c-2.173-1.908-.856-8.517.528-12.566" transform="translate(-491.333 -223.343)" fill="#fc8669"/>
+        </g>
+      </g>
+      <path id="Caminho_460" data-name="Caminho 460" d="M465.266,235.446a12.576,12.576,0,0,1-1.768-3.238,6.483,6.483,0,0,0-2.163-3.486,30.782,30.782,0,0,0-4.1-2.4c-.3-.067-1.133.31-.21.946s2.264,1.5,2.344,2.131c.05.378-1.611,2.851-.493,4.371s.578.293,3.727,3.871C465.281,239.534,465.266,235.446,465.266,235.446Z" transform="translate(658.498 1384.656)" fill="#fec7a9"/>
+      <path id="Caminho_461" data-name="Caminho 461" d="M463.044,230.836a5.014,5.014,0,0,0-3.963,2.621c.453.465,1.14,1.271,1.956,2.2,3.069,2.171,3.164-3.043,3.164-3.043A17.434,17.434,0,0,1,463.044,230.836Z" transform="translate(660.576 1388.913)" fill="#fff"/>
+      <g id="Grupo_246" data-name="Grupo 246" transform="translate(1122.083 1622.669)">
+        <path id="Caminho_462" data-name="Caminho 462" d="M490.938,249.016s-13.139-3.753-16.313-5.854-10.918-11.706-10.918-11.706a4.326,4.326,0,0,0-4.349,3.338c3.639,6.939,9.69,11.6,12.492,13.964s12.794,6.219,16.033,6.557S490.938,249.016,490.938,249.016Z" transform="translate(-459.358 -231.456)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g id="Grupo_260" data-name="Grupo 260" transform="translate(1098.329 1625.465)">
+        <g id="Grupo_247" data-name="Grupo 247" transform="translate(12.165 49.785)">
+          <path id="Caminho_463" data-name="Caminho 463" d="M462.034,257.339a3.655,3.655,0,0,0-3,.54,5.344,5.344,0,0,1-4.112.595,1.522,1.522,0,0,0-.5,2.941,9.752,9.752,0,0,0,5.9.678c.643-.143,1.983-.851,2.438-1S462.034,257.339,462.034,257.339Z" transform="translate(-453.424 -257.223)" fill="#fec7a9"/>
+        </g>
+        <path id="Caminho_464" data-name="Caminho 464" d="M452.467,271.143l-6.343-14.279,20.705-9.155,7.4,14.05Z" transform="translate(-446.124 -213.778)" fill="#f23096"/>
+        <path id="Caminho_465" data-name="Caminho 465" d="M452.772,268.743l-5.414-12.188,17.674-7.814,6.315,11.991Z" transform="translate(-445.302 -213.09)" fill="#f6f5fb"/>
+        <g id="Grupo_248" data-name="Grupo 248" transform="translate(42.206 73.844)">
+          <path id="Caminho_466" data-name="Caminho 466" d="M480.559,272.4s1.773,6.074.915,10.828-2.52,15.773-2.8,18.866.858,6.244.571,7.96-7.788,3.438-7.788,3.438a7.612,7.612,0,0,0,2.863-4.3c.745-2.918,1.033-3.321,1.033-4.7s-.43-23.65-.518-29.317S480.559,272.4,480.559,272.4Z" transform="translate(-471.453 -271.662)" fill="#f9bb9d"/>
+        </g>
+        <g id="Grupo_249" data-name="Grupo 249" transform="translate(34.664 76.362)">
+          <path id="Caminho_467" data-name="Caminho 467" d="M471.035,273.173a32.353,32.353,0,0,0,.57,5.665c.487,1.658,1.518,22.807,1.045,27.018s-3.778,9.92-5.109,10.949-.373,1.346,1.69,1.09,2.833-3.408,3.693-4.639,4.094-2.719,4.094-2.719a24.18,24.18,0,0,0-.832-2.834c-.342-.771.747-14.777,1.723-17.926a23.033,23.033,0,0,0,.468-9.468c-.4-1.6.96-7.135.96-7.135Z" transform="translate(-466.927 -273.173)" fill="#fec7a9"/>
+        </g>
+        <g id="Grupo_250" data-name="Grupo 250" transform="translate(39.332 110.263)">
+          <path id="Caminho_468" data-name="Caminho 468" d="M478.961,303.536h.771s.828-5.236,1.06-6.187.458-3.119-1.145-3.689-2.608.687-3.181,1.89-3.059,4.781-4.724,5.409a4.722,4.722,0,0,0-1.888,1.4s-.66.6,1.031.6,4.264.088,5.267-.342,1-1.316,1.031-2.148a2.489,2.489,0,0,1,1.058-1.946C478.616,301.1,478.961,303.536,478.961,303.536Z" transform="translate(-469.728 -293.518)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g id="Grupo_251" data-name="Grupo 251" transform="translate(32.128 112.804)">
+          <path id="Caminho_469" data-name="Caminho 469" d="M478.922,297.711s-.133-2.751-2.156-2.666-3.029,2.148-3.616,3.839-.845,3.379-2.736,3.636-1.985-.183-1.985-.183a6.421,6.421,0,0,0-3.024.813c.687,1.316,3.406,1.346,5.61,1.373s2.519-.142,2.921-1.111,1.115-4.068,2.406-4.043c.287,2.569.63,5.557.63,5.557h.688s.855-3.924,1.056-5.354S478.994,298.264,478.922,297.711Z" transform="translate(-465.405 -295.043)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g id="Grupo_252" data-name="Grupo 252" transform="translate(36.159 59.879)">
+          <path id="Caminho_470" data-name="Caminho 470" d="M467.824,263.281l.9,16.821s1.543,2.408,7.27,2.063a17.833,17.833,0,0,0,9.163-2.978,63.053,63.053,0,0,1,.688-6.447c.515-3,1.888-8.043,1.888-8.043Z" transform="translate(-467.824 -263.281)" fill="#3305af"/>
+        </g>
+        <g id="Grupo_253" data-name="Grupo 253" transform="translate(35.364 19.883)">
+          <path id="Caminho_471" data-name="Caminho 471" d="M477.74,240.634s-7.26,4.322-8.247,8.725c-.292,1.308-2.581,3.1-1.548,7.313s2.408,9.758,2.408,12.166-3.006,8.677-3.006,11.941c6.955,4.9,17.61,4.381,22.762,0-.085-9.191-1.8-12.026-3.949-16.237s.257-7.817,1.373-11.769,3.136-9.148.515-11.9S480.188,239.531,477.74,240.634Z" transform="translate(-467.347 -239.279)" fill="url(#linear-gradient-6)"/>
+        </g>
+        <g id="Grupo_256" data-name="Grupo 256" transform="translate(39.46)">
+          <g id="Grupo_254" data-name="Grupo 254" transform="translate(0.648 4.948)">
+            <path id="Caminho_472" data-name="Caminho 472" d="M471.977,230.4a9.889,9.889,0,0,1-.773,3.393c-.817,2.191-1.373,4.854-.732,6.959s1.375,3.006,3.309,3.093c.945.215,1.5,1.2,1.631,2.834,2.791,1.116,6.1-.643,6.057-1.075-.432-1.89-.517-2.748.217-4.122s1.46-7.172-1.12-9.448S471.977,230.4,471.977,230.4Z" transform="translate(-470.193 -230.315)" fill="#fec7a9"/>
+          </g>
+          <g id="Grupo_255" data-name="Grupo 255">
+            <path id="Caminho_473" data-name="Caminho 473" d="M472.408,236.587s-4.167-2.576-1.956-5.584,5.077-3.466,7.74-3.636,7.532.632,8.9,4.926c1.591,1.89,2.749,7.845,3.266,12.367s-4.181,9.163-10.826,9.163-7.582-4.526-7.582-4.526a3.63,3.63,0,0,0,4.259-3.034c.686-3.666-.685-8.187-1.028-9.16A3.619,3.619,0,0,1,472.408,236.587Z" transform="translate(-469.805 -227.346)" fill="#3305af"/>
+          </g>
+        </g>
+        <g id="Grupo_257" data-name="Grupo 257" transform="translate(16.013 50.275)">
+          <path id="Caminho_474" data-name="Caminho 474" d="M458.34,259.693s-2.308-.67-2.581-1.736c-.215-.828.986-.3,1.6.073s2.181-.806,3.308.343C460.463,259.778,458.34,259.693,458.34,259.693Z" transform="translate(-455.734 -257.518)" fill="#fec7a9"/>
+        </g>
+        <g id="Grupo_259" data-name="Grupo 259" transform="translate(20.025 26.723)">
+          <path id="Caminho_475" data-name="Caminho 475" d="M460.8,256.788l-2.138.338a3.191,3.191,0,0,0-.3,2.978c.64,1.795,1.151,1.991,1.151,1.991l2.24-.58Z" transform="translate(-458.141 -234.452)" fill="#fff"/>
+          <g id="Grupo_258" data-name="Grupo 258" transform="translate(1.39)">
+            <path id="Caminho_476" data-name="Caminho 476" d="M477.161,243.433c-2.466.47-3.533,5.66-2.856,9.14.627,3.2,1.055,6.745-1.585,8.777a133.257,133.257,0,0,0-13.527,4.392,4.747,4.747,0,0,0,1.96,5.344c3.986-1.156,12.9-3.423,14.627-4.281.7-.348,4.184-2.093,5.172-8.147.757-3.338,1.3-8.625.333-11.418C480.845,245.977,479.624,242.963,477.161,243.433Z" transform="translate(-458.976 -243.383)" fill="#e66748"/>
+          </g>
+        </g>
+      </g>
+      <path id="Caminho_477" data-name="Caminho 477" d="M446.5,213.36l-12.214-5.1-1.135,7.57c-8.581,7.148-15.107,19.493-15.633,30.207l5.689-3.286c.445-6.527,3.932-13.829,8.748-18.944l-.67,4.474Z" transform="translate(622.871 1367.282)" fill="#e66748"/>
+      <path id="Caminho_478" data-name="Caminho 478" d="M442.444,239.293l7.9-8.87-4.659-1.038a31.338,31.338,0,0,0,.58-5.849c0-8.063-3.6-13.087-9.036-14.08l-2.873,7.325c3.758.816,6.234,4.379,6.234,10.033,0,.47-.018.943-.053,1.423l-3.441-.767-1.326,19.314,6.487-7.28.082.02C442.374,239.448,442.408,239.37,442.444,239.293Z" transform="translate(638.067 1368.546)" fill="#e66748"/>
+      <path id="Caminho_479" data-name="Caminho 479" d="M444.489,231.6a25.835,25.835,0,0,1-6.764,5.877c-3.361,1.941-6.452,2.381-8.9,1.548l3.478-3.461-12.324-4.877-2.833,19.956,5.722-5.69c3.661,2.583,8.963,2.479,14.855-.922a36.64,36.64,0,0,0,9.951-8.821Z" transform="translate(622.6 1390.033)" fill="#e66748"/>
+      <path id="Caminho_480" data-name="Caminho 480" d="M446.018,212.727v38.18l39.894-23.032V189.694Z" transform="translate(650.632 1348.469)" fill="#574ad8"/>
+      <g id="Grupo_276" data-name="Grupo 276" transform="translate(1107.606 1548.607)">
+        <g id="Grupo_270" data-name="Grupo 270">
+          <g id="Grupo_266" data-name="Grupo 266" transform="translate(0 24.246)">
+            <path id="Caminho_481" data-name="Caminho 481" d="M452.26,223.044,474.682,210.1v-.289L452.26,222.756Z" transform="translate(-452.26 -209.81)" fill="#fff"/>
+          </g>
+          <g id="Grupo_267" data-name="Grupo 267" transform="translate(0 16.164)">
+            <path id="Caminho_482" data-name="Caminho 482" d="M452.26,218.192l22.422-12.944v-.288L452.26,217.9Z" transform="translate(-452.26 -204.96)" fill="#fff"/>
+          </g>
+          <g id="Grupo_268" data-name="Grupo 268" transform="translate(0 8.082)">
+            <path id="Caminho_483" data-name="Caminho 483" d="M452.26,213.343,474.682,200.4v-.289L452.26,213.054Z" transform="translate(-452.26 -200.109)" fill="#fff"/>
+          </g>
+          <g id="Grupo_269" data-name="Grupo 269">
+            <path id="Caminho_484" data-name="Caminho 484" d="M452.26,208.492l22.422-12.946v-.287L452.26,208.2Z" transform="translate(-452.26 -195.259)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Grupo_275" data-name="Grupo 275" transform="translate(0 3.948)">
+          <g id="Grupo_271" data-name="Grupo 271" transform="translate(0 24.246)">
+            <path id="Caminho_485" data-name="Caminho 485" d="M452.26,225.412l22.422-12.944v-.289L452.26,225.125Z" transform="translate(-452.26 -212.179)" fill="#fff"/>
+          </g>
+          <g id="Grupo_272" data-name="Grupo 272" transform="translate(0 16.164)">
+            <path id="Caminho_486" data-name="Caminho 486" d="M452.26,220.562l22.422-12.946v-.287L452.26,220.273Z" transform="translate(-452.26 -207.329)" fill="#fff"/>
+          </g>
+          <g id="Grupo_273" data-name="Grupo 273" transform="translate(0 8.082)">
+            <path id="Caminho_487" data-name="Caminho 487" d="M452.26,215.711l22.422-12.945v-.288L452.26,215.423Z" transform="translate(-452.26 -202.479)" fill="#fff"/>
+          </g>
+          <g id="Grupo_274" data-name="Grupo 274">
+            <path id="Caminho_488" data-name="Caminho 488" d="M452.26,210.86l22.422-12.945v-.287L452.26,210.573Z" transform="translate(-452.26 -197.628)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_283" data-name="Grupo 283" transform="translate(1108.868 1555.043)">
+        <g id="Grupo_277" data-name="Grupo 277" transform="translate(17.125 3.905)">
+          <path id="Caminho_489" data-name="Caminho 489" d="M463.271,222.06l2.914-1.682v-19.5l-2.914,1.682Z" transform="translate(-463.271 -200.881)" fill="#e3f4ff"/>
+          <path id="Caminho_490" data-name="Caminho 490" d="M463.271,220.953l2.914-1.682v-16.73l-2.914,1.683Z" transform="translate(-463.271 -199.774)" fill="#f23096"/>
+        </g>
+        <g id="Grupo_279" data-name="Grupo 279" transform="translate(11.417)">
+          <path id="Caminho_491" data-name="Caminho 491" d="M459.845,226.917l2.913-1.682v-26.7l-2.913,1.682Z" transform="translate(-459.845 -198.538)" fill="#e3f4ff"/>
+          <g id="Grupo_278" data-name="Grupo 278" transform="translate(0 7.703)">
+            <path id="Caminho_492" data-name="Caminho 492" d="M459.845,223.837l2.913-1.682V203.161l-2.913,1.683Z" transform="translate(-459.845 -203.161)" fill="#b7abff"/>
+          </g>
+        </g>
+        <g id="Grupo_280" data-name="Grupo 280" transform="translate(5.707 5.698)">
+          <path id="Caminho_493" data-name="Caminho 493" d="M456.418,227.935l2.914-1.681v-24.3l-2.914,1.682Z" transform="translate(-456.418 -201.957)" fill="#e3f4ff"/>
+          <path id="Caminho_494" data-name="Caminho 494" d="M456.418,226.8l2.914-1.681V203.665l-2.914,1.68Z" transform="translate(-456.418 -200.819)" fill="url(#linear-gradient-7)"/>
+        </g>
+        <g id="Grupo_282" data-name="Grupo 282" transform="translate(0 10.314)">
+          <path id="Caminho_495" data-name="Caminho 495" d="M452.993,229.384,455.9,227.7V204.727l-2.911,1.68Z" transform="translate(-452.993 -204.727)" fill="#e3f4ff"/>
+          <g id="Grupo_281" data-name="Grupo 281" transform="translate(0 3.478)">
+            <path id="Caminho_496" data-name="Caminho 496" d="M452.993,227.993l2.911-1.681v-19.5l-2.911,1.681Z" transform="translate(-452.993 -206.815)" fill="#ffea50"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_285" data-name="Grupo 285" transform="translate(1097.519 1580.345)">
+        <path id="Caminho_497" data-name="Caminho 497" d="M447.674,216.354l4.088-2.36v-2.271l-4.088,2.358Z" transform="translate(-447.674 -211.723)" fill="#f23096"/>
+      </g>
+      <g id="Grupo_287" data-name="Grupo 287" transform="translate(1097.521 1585.967)">
+        <g id="Grupo_286" data-name="Grupo 286">
+          <path id="Caminho_498" data-name="Caminho 498" d="M447.675,219.086l4.086-2.36v-2.273l-4.086,2.36Z" transform="translate(-447.675 -214.454)" fill="#b7abff"/>
+        </g>
+      </g>
+      <g id="Grupo_288" data-name="Grupo 288" transform="translate(1097.519 1591.589)">
+        <path id="Caminho_499" data-name="Caminho 499" d="M447.674,221.818l4.088-2.359v-2.273l-4.088,2.361Z" transform="translate(-447.674 -217.185)" fill="url(#linear-gradient-8)"/>
+      </g>
+      <g id="Grupo_290" data-name="Grupo 290" transform="translate(1097.519 1597.212)">
+        <g id="Grupo_289" data-name="Grupo 289">
+          <path id="Caminho_500" data-name="Caminho 500" d="M447.674,224.549l4.088-2.359v-2.273l-4.086,2.36Z" transform="translate(-447.674 -219.917)" fill="#ffea50"/>
+        </g>
+      </g>
+      <path id="Caminho_501" data-name="Caminho 501" d="M484.96,353.754c0,25.585-35.476,46.322-79.24,46.322s-79.235-20.737-79.235-46.322,35.473-46.319,79.235-46.319S484.96,328.172,484.96,353.754Z" transform="translate(536.587 1486.313)" fill="url(#radial-gradient-5)"/>
+      <g id="Grupo_308" data-name="Grupo 308" transform="translate(912.719 1670.696)">
+        <g id="Grupo_293" data-name="Grupo 293">
+          <path id="Caminho_502" data-name="Caminho 502" d="M423.42,249.037,417.7,245.1v0c-.825-.686-2.085-.7-3.489.11L360.8,276.049a9.988,9.988,0,0,0-4.521,7.828V397.189a3.316,3.316,0,0,0,1.112,2.776h-.008l6.382,4.354-.481-5.952,50.926-29.4a9.992,9.992,0,0,0,4.517-7.828V253.341Z" transform="translate(-356.279 -244.596)" fill="#ffb19e"/>
+        </g>
+        <g id="Grupo_294" data-name="Grupo 294" transform="translate(1.061)">
+          <path id="Caminho_503" data-name="Caminho 503" d="M418.3,253.341l4.694-4.3-5.722-3.936v0c-.825-.686-2.085-.7-3.489.11l-53.409,30.837a9.471,9.471,0,0,0-3.459,3.894L418.3,317.359Z" transform="translate(-356.916 -244.596)" fill="#ff9075"/>
+        </g>
+        <g id="Grupo_295" data-name="Grupo 295" transform="translate(4.521 0.616)">
+          <line id="Linha_14" data-name="Linha 14" x1="53.408" y2="30.837" fill="#8970f2"/>
+        </g>
+        <g id="Grupo_296" data-name="Grupo 296" transform="translate(6.219 4.239)">
+          <path id="Caminho_504" data-name="Caminho 504" d="M422.456,363.677a9.984,9.984,0,0,1-4.517,7.827l-53.407,30.837c-2.5,1.441-4.521.273-4.521-2.608V286.42a9.991,9.991,0,0,1,4.521-7.83l53.407-30.832c2.495-1.443,4.517-.275,4.517,2.606Z" transform="translate(-360.011 -247.14)" fill="#e66748"/>
+        </g>
+        <path id="Caminho_505" data-name="Caminho 505" d="M416.664,354.428a8.659,8.659,0,0,1-3.921,6.787l-46.325,26.749c-2.166,1.25-3.924.237-3.924-2.265V287.409a8.678,8.678,0,0,1,3.924-6.792l46.325-26.743c2.165-1.251,3.921-.238,3.921,2.261Z" transform="translate(-352.138 -238.771)" fill="#f6f5fb"/>
+        <g id="Grupo_299" data-name="Grupo 299" transform="translate(0.883 57.438)">
+          <g id="Grupo_297" data-name="Grupo 297" transform="translate(0.085)">
+            <path id="Caminho_506" data-name="Caminho 506" d="M360.008,292.923a1.073,1.073,0,0,1-1.583,1.051l.2-.252a3.053,3.053,0,0,1-1.386-2.4l-.377-11.134a1.165,1.165,0,0,1,1.763-.961h0a3.058,3.058,0,0,1,1.385,2.4Z" transform="translate(-356.86 -279.066)" fill="#574ad8"/>
+          </g>
+          <g id="Grupo_298" data-name="Grupo 298" transform="translate(0 0.289)">
+            <path id="Caminho_507" data-name="Caminho 507" d="M359.58,293.126c0,.885-.617,1.243-1.383.8h0a3.067,3.067,0,0,1-1.388-2.4V280.23c0-.887.623-1.243,1.388-.8h0a3.059,3.059,0,0,1,1.383,2.4Z" transform="translate(-356.809 -279.239)" fill="#8970f2"/>
+          </g>
+        </g>
+        <g id="Grupo_302" data-name="Grupo 302" transform="translate(0.883 72.63)">
+          <g id="Grupo_300" data-name="Grupo 300" transform="translate(0.118)">
+            <path id="Caminho_508" data-name="Caminho 508" d="M359.994,302.043c0,.885-.793,1.538-1.558,1.093l.173-.293a3.056,3.056,0,0,1-1.386-2.4L356.88,289.3a1.135,1.135,0,0,1,1.73-.952h0a3.062,3.062,0,0,1,1.385,2.4Z" transform="translate(-356.88 -288.183)" fill="#574ad8"/>
+          </g>
+          <g id="Grupo_301" data-name="Grupo 301" transform="translate(0 0.293)">
+            <path id="Caminho_509" data-name="Caminho 509" d="M359.58,302.245c0,.887-.617,1.245-1.383.8h0a3.069,3.069,0,0,1-1.388-2.4v-11.3c0-.886.623-1.243,1.388-.8h0a3.054,3.054,0,0,1,1.383,2.4Z" transform="translate(-356.809 -288.359)" fill="#8970f2"/>
+          </g>
+        </g>
+        <g id="Grupo_305" data-name="Grupo 305" transform="translate(0.883 132.863)">
+          <g id="Grupo_303" data-name="Grupo 303" transform="translate(0.118)">
+            <path id="Caminho_510" data-name="Caminho 510" d="M359.994,338.192c0,.887-.793,1.536-1.558,1.095l.173-.293a3.061,3.061,0,0,1-1.386-2.4l-.343-11.148a1.133,1.133,0,0,1,1.73-.95h0a3.055,3.055,0,0,1,1.385,2.4Z" transform="translate(-356.88 -324.331)" fill="#574ad8"/>
+          </g>
+          <g id="Grupo_304" data-name="Grupo 304" transform="translate(0 0.294)">
+            <path id="Caminho_511" data-name="Caminho 511" d="M359.58,338.394c0,.882-.617,1.24-1.383.8h0a3.069,3.069,0,0,1-1.388-2.4V325.5c0-.883.623-1.241,1.388-.8h0a3.052,3.052,0,0,1,1.383,2.4Z" transform="translate(-356.809 -324.507)" fill="#8970f2"/>
+          </g>
+        </g>
+        <g id="Grupo_306" data-name="Grupo 306" transform="translate(7.77 30.795)">
+          <path id="Caminho_512" data-name="Caminho 512" d="M364.6,265.189a3.35,3.35,0,0,1-3.031,0,.925.925,0,0,1,0-1.75,3.35,3.35,0,0,1,3.031,0A.924.924,0,0,1,364.6,265.189Z" transform="translate(-360.942 -263.076)" fill="#2f2caf"/>
+        </g>
+        <g id="Grupo_307" data-name="Grupo 307" transform="translate(16.459 25.674)">
+          <path id="Caminho_513" data-name="Caminho 513" d="M369.815,262.114a3.367,3.367,0,0,1-3.029,0,.923.923,0,0,1,0-1.75,3.356,3.356,0,0,1,3.029,0A.925.925,0,0,1,369.815,262.114Z" transform="translate(-366.157 -260.003)" fill="#2f2caf"/>
+        </g>
+      </g>
+      <g id="Grupo_310" data-name="Grupo 310" transform="translate(929.33 1733.945)">
+        <path id="Caminho_514" data-name="Caminho 514" d="M406.861,284.575l-12.081,6.832a6.2,6.2,0,0,0-1.431,1.171c-1.476-6.077-6.9-8.1-13.351-4.377-7.582,4.377-13.75,15.06-13.75,23.815s6.169,12.316,13.75,7.938c6.45-3.724,11.874-12.011,13.351-19.794a3.374,3.374,0,0,0,1.431-.48l12.081-6.832a7.916,7.916,0,0,0,3.583-6.207C410.444,284.358,408.841,283.432,406.861,284.575ZM380,315.788c-5.592,3.231-10.143.6-10.143-5.855s4.551-14.34,10.143-17.568,10.143-.6,10.143,5.857S385.591,312.561,380,315.788Z" transform="translate(-366.248 -284.085)" fill="#574ad8"/>
+      </g>
+      <path id="Caminho_515" data-name="Caminho 515" d="M528.062,358.972c0,25.585-35.474,46.32-79.237,46.32s-79.237-20.736-79.237-46.32,35.473-46.319,79.237-46.319S528.062,333.39,528.062,358.972Z" transform="translate(565.308 1512.189)" fill="url(#radial-gradient-6)"/>
+      <g id="Grupo_316" data-name="Grupo 316" transform="translate(1008.887 1795.764)">
+        <g id="Grupo_313" data-name="Grupo 313" transform="translate(0.02)">
+          <path id="Caminho_516" data-name="Caminho 516" d="M428.061,344.349l27.284-15.75-27.284-15.752L400.78,328.6Z" transform="translate(-400.78 -312.847)" fill="#fffaca"/>
+        </g>
+        <g id="Grupo_314" data-name="Grupo 314" transform="translate(27.283 15.752)">
+          <path id="Caminho_517" data-name="Caminho 517" d="M417.142,353.7l27.3-15.762V322.3l-27.3,15.76Z" transform="translate(-417.142 -322.3)" fill="#f9ed98"/>
+        </g>
+        <g id="Grupo_315" data-name="Grupo 315" transform="translate(0 15.752)">
+          <path id="Caminho_518" data-name="Caminho 518" d="M428.069,353.7l-27.3-15.762V322.3l27.3,15.76Z" transform="translate(-400.769 -322.3)" fill="#fcf188"/>
+        </g>
+      </g>
+      <g id="Grupo_320" data-name="Grupo 320" transform="translate(1008.887 1766.07)">
+        <g id="Grupo_317" data-name="Grupo 317" transform="translate(0.02)">
+          <path id="Caminho_519" data-name="Caminho 519" d="M428.061,330.2l27.284-15.752L428.061,298.7,400.78,314.45Z" transform="translate(-400.78 -298.698)" fill="#25efe0"/>
+        </g>
+        <g id="Grupo_318" data-name="Grupo 318" transform="translate(27.283 15.752)">
+          <path id="Caminho_520" data-name="Caminho 520" d="M417.142,339.548l27.3-15.76V308.151l-27.3,15.762Z" transform="translate(-417.142 -308.151)" fill="#00ead9"/>
+        </g>
+        <g id="Grupo_319" data-name="Grupo 319" transform="translate(0 15.752)">
+          <path id="Caminho_521" data-name="Caminho 521" d="M428.069,339.548l-27.3-15.76V308.151l27.3,15.762Z" transform="translate(-400.769 -308.151)" fill="#00ded3"/>
+        </g>
+      </g>
+      <g id="Grupo_322" data-name="Grupo 322" transform="translate(1008.887 1736.378)">
+        <g id="Grupo_321" data-name="Grupo 321" transform="translate(0.02)">
+          <path id="Caminho_522" data-name="Caminho 522" d="M428.061,316.053l27.284-15.75-27.284-15.752L400.78,300.3Z" transform="translate(-400.78 -284.551)" fill="#fc27b5"/>
+        </g>
+        <path id="Caminho_523" data-name="Caminho 523" d="M417.142,325.4l27.3-15.762V294l-27.3,15.762Z" transform="translate(-389.859 -278.252)" fill="#f23096"/>
+        <path id="Caminho_524" data-name="Caminho 524" d="M428.069,325.4l-27.3-15.762V294l27.3,15.762Z" transform="translate(-400.769 -278.252)" fill="#db1285"/>
+      </g>
+      <g id="Grupo_326" data-name="Grupo 326" transform="translate(1008.887 1706.686)">
+        <g id="Grupo_323" data-name="Grupo 323" transform="translate(0.02)">
+          <path id="Caminho_525" data-name="Caminho 525" d="M428.061,301.907l27.284-15.752L428.061,270.4,400.78,286.155Z" transform="translate(-400.78 -270.403)" fill="#8970f2"/>
+        </g>
+        <g id="Grupo_324" data-name="Grupo 324" transform="translate(27.283 15.752)">
+          <path id="Caminho_526" data-name="Caminho 526" d="M417.142,311.253l27.3-15.762V279.856l-27.3,15.762Z" transform="translate(-417.142 -279.856)" fill="#574ad8"/>
+        </g>
+        <g id="Grupo_325" data-name="Grupo 325" transform="translate(0 15.752)">
+          <path id="Caminho_527" data-name="Caminho 527" d="M428.069,311.253l-27.3-15.762V279.856l27.3,15.762Z" transform="translate(-400.769 -279.856)" fill="#b7abff"/>
+        </g>
+      </g>
+      <path id="Caminho_528" data-name="Caminho 528" d="M575.245,382.764c0,25.585-35.474,46.322-79.238,46.322s-79.237-20.737-79.237-46.322,35.474-46.319,79.237-46.319S575.245,357.182,575.245,382.764Z" transform="translate(630.983 1528.042)" fill="url(#radial-gradient-7)"/>
+      <path id="Caminho_529" data-name="Caminho 529" d="M618.131,395.977c0,25.585-35.474,46.322-79.238,46.322s-79.237-20.737-79.237-46.322,35.472-46.319,79.237-46.319S618.131,370.4,618.131,395.977Z" transform="translate(675.821 1536.846)" fill="url(#radial-gradient-8)"/>
+      <g id="Grupo_341" data-name="Grupo 341" transform="translate(920.052 1559.637)">
+        <path id="Caminho_536" data-name="Caminho 536" d="M414.235,200.119,366.4,227.735a12.656,12.656,0,0,0-5.724,9.915v29.117c0,3.649,4.607,6.692,7.768,4.867l17.758-13,20.181,6.347v-18l7.85-4.531a12.651,12.651,0,0,0,5.724-9.913l3.4-28.6C423.36,200.294,417.4,198.292,414.235,200.119Z" transform="translate(-360.68 -199.432)" fill="#294c5b"/>
+      </g>
+      <g id="Grupo_342" data-name="Grupo 342" transform="translate(923.525 1561.307)">
+        <path id="Caminho_537" data-name="Caminho 537" d="M416.319,201.046l-47.833,27.616a12.65,12.65,0,0,0-5.722,9.915v29.117c0,3.649,2.563,5.129,5.722,3.3l19.8-11.433,20.181,6.347v-18l7.85-4.531a12.654,12.654,0,0,0,5.724-9.913V204.35C422.045,200.7,419.482,199.22,416.319,201.046Z" transform="translate(-362.764 -200.263)" fill="#4f839a"/>
+      </g>
+      <g id="Grupo_344" data-name="Grupo 344" transform="translate(931.94 1572.069)">
+        <path id="Caminho_538" data-name="Caminho 538" d="M411.462,206.963l-43.648,25.6v1.678l43.648-25.6Z" transform="translate(-367.814 -206.963)" fill="#f5f3ff"/>
+      </g>
+      <g id="Grupo_345" data-name="Grupo 345" transform="translate(931.94 1578.864)">
+        <path id="Caminho_539" data-name="Caminho 539" d="M411.462,210.232l-43.648,25.6v1.677l43.648-25.6Z" transform="translate(-367.814 -210.232)" fill="#f5f3ff"/>
+      </g>
+      <g id="Grupo_346" data-name="Grupo 346" transform="translate(931.94 1585.658)">
+        <path id="Caminho_540" data-name="Caminho 540" d="M411.462,213.5l-43.648,25.6v1.677l43.648-25.6Z" transform="translate(-367.814 -213.5)" fill="#f5f3ff"/>
+      </g>
+      <g id="Grupo_347" data-name="Grupo 347" transform="translate(931.94 1592.453)">
+        <path id="Caminho_541" data-name="Caminho 541" d="M411.462,216.768l-43.648,25.6v1.678l43.648-25.6Z" transform="translate(-367.814 -216.768)" fill="#f5f3ff"/>
+      </g>
+      <g id="Grupo_348" data-name="Grupo 348" transform="translate(931.94 1599.246)">
+        <path id="Caminho_542" data-name="Caminho 542" d="M411.462,220.036l-43.648,25.6v1.678l43.648-25.6Z" transform="translate(-367.814 -220.036)" fill="#f5f3ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

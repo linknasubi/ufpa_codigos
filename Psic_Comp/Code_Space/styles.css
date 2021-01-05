@@ -1,0 +1,48 @@
+body {
+  background: #111;
+  color: #f8f8f8;
+  background-image: url("images/image.jpg");
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#container{
+  position: relative;
+
+}
+
+#circleContainer canvas, #circleCanvas{
+  z-index: 2;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: block;
+  position: absolute;
+
+}
+
+
+#backgroundContainer canvas, #backgroundCanvas{
+
+  z-index: 1;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: block;
+  position: absolute;
+
+}
+
+
+#gameContainer canvas, #gameCanvas{
+
+  opacity: 0.0;
+  background-color:white;
+  z-index: 0;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: block;
+  position: absolute;
+
+}

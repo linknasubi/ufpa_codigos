@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Space Code</title>
+</head>
+
+<body id="chalenge_body">
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar navbar-dark navbar-expand-lg navbar-light fixed-top">
+                <div class="container">
+                    <img src="assets/logo.svg" alt="SpaceCode">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-igger" href="challenge.html">Challenge</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="a">
+
+        <div id="backgroundContainer">
+            <canvas id="backgroundCanvas"></canvas>
+        </div>
+        <div id="circleContainer" >
+            <canvas id="circleCanvas"></canvas>
+        </div>
+        
+        
+        <div id="gameContainer" >
+            <canvas id="gameCanvas"></canvas>
+        </div>
+        
+        
+        <div id="gameBorderContainer" >
+            <canvas id="gameBorderCanvas"></canvas>
+        </div>
+        
+        <div id="gameAlertContainer" >
+            <canvas id="gameAlertCanvas"></canvas>
+        </div>
+        
+        <script src="js/background.js"></script>
+        <script src="js/gameAlert.js"></script>
+        <script src="js/gameBorder.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/circles.js"></script>
+    </div>
+
+    
+</body>
+
+</html>
