@@ -141,8 +141,8 @@ class ListAdj_Graph:
 
 
 
-graphs = ListAdj_Graph([1,2,3,4,8])
-graphs.addEdge([1,3, 4,8, 2,4, 3,8], 0)
+graphs = ListAdj_Graph([1,2,3,4,5,6])
+graphs.addEdge([1,2, 2,5, 5,1, 3,6], 0)
 graphs_values = graphs.graph
 
 
@@ -161,12 +161,20 @@ class DFS:
         self.black = []
         self.graph = graph
         
+        self.id = -1
+        self.id_comp = []
+        
         for i in (self.graph):
             self.white.append(i)
             self.time_stamp[i] = time.time()
         
         for i in (self.graph):
             if i in self.white:
+                
+                self.id += 1
+                self.id_comp.append([])
+                
+                
                 self.checkGraph(i)
     
 
@@ -175,6 +183,10 @@ class DFS:
         
         self.gray.append(i)
         self.white.remove(i)
+        
+        
+
+        self.id_comp[self.id].append(i)
 
         
         for j in self.graph[i]:
@@ -182,7 +194,7 @@ class DFS:
                 self.checkGraph(j)
         
         
-        print("Gray List ->", self.gray, "////","Black List ->", self.black)
+        print("Gray List ->", self.gray, "////","Black List ->", self.black, "\n")
         self.gray.remove(i)
         self.black.append(i)
         self.time_stamp[i] -= time.time()
@@ -190,7 +202,10 @@ class DFS:
         
 
 
-DFS(graphs_values)
+dfs = DFS(graphs_values)
+for i in range(len(dfs.id_comp)):
+    print("Component "+str(i), dfs.id_comp[i])
+
 
 
 class BFS:
@@ -200,11 +215,13 @@ class BFS:
         self.white = []
         self.black = []
         self.graph = graph
-        self.line = [next(iter(self.graph))]
+        
         
         for i in (self.graph):
             self.white.append(i)
             
+        self.line = [self.white[0]]
+        print(self.line)
     
     def checkGraph(self):
         
@@ -212,15 +229,19 @@ class BFS:
             
             if self.line == []:
                 self.line.append(self.white[0])
-            
-            
+        
             self.white.remove(self.line[0])
+            
+            
+            
             for i in self.graph[self.line[0]]:
-                if i in self.white:
+                if i in self.white and i not in self.line:
                     self.line.append(i)
+                    
+            
             
             self.black.append(self.line[0])
-            self.line.remove(self.line[0])
+            self.line.pop(0)
             
             
             print("Line -> ", self.line, "///////", "Black List ->", self.black)
@@ -230,8 +251,8 @@ class BFS:
         
         
 
-bfs = BFS(graphs_values)
-bfs.checkGraph()
+# bfs = BFS(graphs_values)
+# bfs.checkGraph()
 
 
 

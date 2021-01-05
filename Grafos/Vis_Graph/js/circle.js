@@ -9,13 +9,13 @@ flag = 0;
 
 function init(){
     canvCircle = document.getElementById('circleCanvas')
-    canvCircle.width = window.innerWidth;
+    canvCircle.width = window.innerWidth-50;
 	var heightRatio = 0.5;
 	canvCircle.height = canvCircle.width * heightRatio;
 	ctxCircle = canvCircle.getContext('2d')
     ctxCircle.globalCompositeOperation = 'destination-over';
-    Graph = new Adj_Graph([1,2,3,4,8,7,12, 18,15,16,21,23,26]);
-    Graph.addEdge([1,2, 2,7, 1,8, 4,12, 7,4, 4,3, 18,15, 18,21, 26,23, 7,16, 16,23, 15,4], 0);
+    Graph = new Adj_Graph([1,2,3,4,5,6,7,8,9]);
+    Graph.addEdge([1,2, 1,3, 1,7, 7,8, 8,9, 7,4, 4,6, 4,5, 3,4], 0);
     graph_values = Graph.graph;
     console.log(Graph.graph);
     num_edges = Graph.edges();
@@ -126,53 +126,108 @@ Line.prototype.update = function(root, connections, circle_color){
 
 function draw_circle(){
 
-    var aux = -1;
-    var gen_aux = -1;
+    var adjustScreen = 150 //Used to keep nodes coordinates away from the borders
 
-    var visi_nodes = []
-
-    var rel_distance_x = [-(canvCircle.width)/12.4, -(canvCircle.width/1.4)] //Used to keep the nodes coordinates away from the borders
-
-    var rel_distance_y = [-(canvCircle.height/2.4), -(canvCircle.height/12.4)] //Used to keep the planets coordinates away from the borders
-
-	for(var i in graph_values){
-
-        aux = gen_aux;
-        gen_aux += 1;
-        for(var j of graph_values[i]){
-            aux += 1;
-            visi_nodes.push(j);
-
-            sectionXo = (((canvCircle.width+rel_distance_x[0])*(aux))/num_edges);
-            sectionX = ((canvCircle.width+rel_distance_x[1])*(aux+1)/num_edges) - 40;
-
-            sectionYo = (((canvCircle.height+rel_distance_y[0])*(aux))/num_edges);
-            sectionY = ((canvCircle.height+rel_distance_y[1])*(aux+1)/num_edges) - 40;
     
-            randomX = Math.round(Math.random()*(sectionX - sectionXo) + sectionXo/1.2);
-            randomY = Math.round(Math.random()*(sectionY - sectionYo) + sectionYo/1.2);
-            var circle = new Circle(randomX, randomY);
-            circle_nodes[j] = circle;
-            
-        }
+    nodes_length = (Object.keys(graph_values).length*2)-4;
+    
+    X_Dict = [] //Stores all horizontal quadrants
+    Y_Dict = [] //Stores all vertical quadrants
+    
+    for(var i = 0; i < nodes_length; i++){ //Generates all quadrants
+        
+        X_Dict[i] = [(i*canvCircle.width+200)/(nodes_length), ((i+1)*canvCircle.width-adjustScreen)/(nodes_length)]
+        Y_Dict[i] = [(i*canvCircle.height+200)/(nodes_length), ((i+1)*canvCircle.height-adjustScreen)/(nodes_length)]
+        
+    }
+    
+
+    var random_ind_X = Math.floor(Math.random() * X_Dict.length);
+    var random_ind_Y = Math.floor(Math.random() * Y_Dict.length);
+
+    var choiceX = X_Dict[random_ind_X];
+    var choiceY = Y_Dict[random_ind_Y];
+
+    var previous_value = [random_ind_X, random_ind_Y];
+
+    X_Dict.splice(X_Dict.indexOf(choiceX), 1);
+    Y_Dict.splice(Y_Dict.indexOf(choiceY), 1);
 
 
-        if(visi_nodes.includes(i)){
-            continue
+    randomX = Math.round(Math.random()*(choiceX[1] - choiceX[0]) + choiceX[0]);
+    randomY = Math.round(Math.random()*(choiceY[1] - choiceY[0]) + choiceY[0]);
+    var circle = new Circle(randomX, randomY);
+    circle_nodes[Object.keys(graph_values)[0]] = circle;
+
+
+    var new_graph = {...graph_values};
+    delete new_graph[Object.keys(graph_values)[0]];
+
+
+	for(var i in new_graph){
+
+        var random_flag = Math.floor(Math.random()*2)
+
+        console.log(random_flag);
+
+        if (random_flag == 0){random_flag = -1}
+        
+
+
+
+
+        if(previous_value[0] >= X_Dict.length-1){
+
+
+            var random_ind_X = Math.floor(Math.random() * (-2) + previous_value[0]);
+
         }
 
         else{
 
-            sectionXo = (((canvCircle.width+rel_distance_x[0])*(gen_aux+1))/num_edges);
-            sectionX = ((canvCircle.width+rel_distance_x[1])*(gen_aux+2)/num_edges) - 40;
-    
-            randomX = Math.round(Math.random()*(sectionX - sectionXo) + sectionXo/1.2);
-            randomY = Math.round(Math.random()*(canvCircle.height * ((aux%2)+1)/2 - 200)+100);
-            var circle = new Circle(randomX, randomY);
-            circle_nodes[i] = circle;
+            var random_ind_X = Math.floor(Math.random() * (random_flag * 2) + previous_value[0]);
+        }
+
+        if(previous_value[1] >= Y_Dict.length-1){
+
+            var random_ind_Y = Math.floor(Math.random() * (-2) + previous_value[1]);
+        }
+
+        else{
+
+            var random_ind_Y = Math.floor(Math.random() * (random_flag * 2) + previous_value[1]);
+
         }
 
 
+        if(previous_value[0] < 2){var random_ind_X = Math.floor(Math.random() * (2) + previous_value[0]);}
+        if(previous_value[1] < 2){var random_ind_Y = Math.floor(Math.random() * (2) + previous_value[1]);}
+
+
+        
+        var choiceX = X_Dict[random_ind_X];
+        var choiceY = Y_Dict[random_ind_Y];
+        
+        
+        var previous_value = [random_ind_X, random_ind_Y];
+
+
+        
+        
+        console.log(previous_value, X_Dict.length, Y_Dict.length);
+
+        
+        randomX = Math.round(Math.random()*(choiceX[1] - choiceX[0]) + choiceX[0]);
+        randomY = Math.round(Math.random()*(choiceY[1] - choiceY[0]) + choiceY[0]);
+
+
+        var circle = new Circle(randomX, randomY);
+        circle_nodes[i] = circle;
+
+
+        
+        X_Dict.splice(X_Dict.indexOf(choiceX), 1);
+        Y_Dict.splice(Y_Dict.indexOf(choiceY), 1);
 
 	}
 
@@ -192,6 +247,15 @@ draw_circle();
 function initDFS(){
 
     new DFS(graph_values);
+
+
+}
+
+
+function initBFS(){
+
+    new BFS(graph_values).checkGraph();
+    
 
 
 }

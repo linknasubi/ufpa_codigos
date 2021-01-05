@@ -220,7 +220,74 @@ class DFS{
 }
 
 
+class BFS{
 
+    constructor(nodes){
+
+        this.white = [];
+        this.black = [];
+        this.nodes = nodes;
+        this.nodes_length = Object.keys(nodes).length;
+        
+        for (var i in this.nodes){
+            this.white.push(parseInt(i));
+        }
+        
+        this.line = [this.white[0]];
+        
+
+
+    }
+
+    async checkGraph(){
+
+
+        while (this.white.length > 0){
+            
+
+            
+            if(this.line.length == 0){
+                this.line.push(this.white[0])
+            }
+
+
+
+
+            this.white.splice(this.white.indexOf(this.line[0]), 1)
+
+
+            console.log(this.line);
+
+            for(var value of this.nodes[this.line[0]]){
+                var value = parseInt(value);
+                if(this.white.includes(value) && !this.line.includes(value)){
+                    this.line.push(value);
+
+                    circle_nodes[value].color = 'gray';
+
+                }
+            }
+            
+            await sleep(400);
+
+
+            this.black.push(this.line[0]);
+
+            circle_nodes[this.line[0]].color = 'black';
+
+            await sleep(400);
+
+            this.line.splice(0, 1);
+
+
+
+
+        }
+
+    }
+
+
+}
 
 
 
