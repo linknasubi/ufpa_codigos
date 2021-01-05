@@ -2,8 +2,8 @@
 
 ## Trabalhos De Destaque
 
-* [Representação Visual Em Algoritmos De Busca](representação-visual-em-algoritmos-de-busca)
-* [Site Lúdico Para A Disciplina De Psicologia](site-lúdico-para-a-disciplina-de-psicologia)
+* [Representação Visual Em Algoritmos De Busca](#representação-visual-em-algoritmos-de-busca)
+* [Site Lúdico Para A Disciplina De Psicologia](#site-lúdico-para-a-disciplina-de-psicologia)
 
 ## Representação Visual Em Algoritmos De Busca
 
