@@ -2,10 +2,10 @@
 
 ## Trabalhos De Destaque
 
-* [Representação Visual De Algoritmos De Busca Em Grafos](representação-visual-de-algoritmos-de-busca-em-grafos)
-* [Site Lúdico Para A Disciplina De Psicologia](site-lúdica-para-a-disciplina-de-psicologia)
+* [Representação Visual Em Algoritmos De Busca](representação-visual-em-algoritmos-de-busca)
+* [Site Lúdico Para A Disciplina De Psicologia](site-lúdico-para-a-disciplina-de-psicologia)
 
-## Representação Visual De Algoritmos De Busca Em Grafos
+## Representação Visual Em Algoritmos De Busca
 
 A partir dos conhecimentos adquiridos na disciplina de Grafos, foi elaborada uma representação visual dos algoritmos de busca DFS e BFS.
 
