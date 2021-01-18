@@ -141,8 +141,12 @@ class ListAdj_Graph:
 
 
 
-graphs = ListAdj_Graph([1,2,3,4,5,6])
-graphs.addEdge([1,2, 2,5, 5,1, 3,6], 0)
+graphs = ListAdj_Graph([1,2,3,4,5,6, 7]) 
+
+#Creates edges, the last value points to a oriented graph or non oriented.
+graphs.addEdge([1,2, 1,5, 1,6, 2,3, 3,4, 3,7, 4,5, 6,3, 6,7], 1)
+
+
 graphs_values = graphs.graph
 
 
@@ -160,6 +164,7 @@ class DFS:
         self.gray = []
         self.black = []
         self.graph = graph
+        self.sort_topography = []
         
         self.id = -1
         self.id_comp = []
@@ -180,18 +185,20 @@ class DFS:
 
 
     def checkGraph(self, i):
+
         
         self.gray.append(i)
         self.white.remove(i)
         
         
 
-        self.id_comp[self.id].append(i)
 
         
         for j in self.graph[i]:
             if j in self.white:
                 self.checkGraph(j)
+                
+        self.sort_topography.append(i)
         
         
         print("Gray List ->", self.gray, "////","Black List ->", self.black, "\n")
@@ -200,11 +207,28 @@ class DFS:
         self.time_stamp[i] -= time.time()
         self.time_stamp[i] *= -1
         
+        
 
 
 dfs = DFS(graphs_values)
-for i in range(len(dfs.id_comp)):
-    print("Component "+str(i), dfs.id_comp[i])
+
+# for i in range(len(dfs.id_comp)):
+#     print("Component "+str(i), dfs.id_comp[i])
+    
+
+counter = 0
+for i in (dfs.sort_topography[::-1]):
+    if counter < len(dfs.sort_topography[::-1])-1:
+        
+        print('', i, "\n |\n"+" |\n"+"\ /")
+        
+    else:
+        
+        print('',i)
+
+    counter += 1
+    
+    
 
 
 
