@@ -35,3 +35,15 @@ do nó adjacente anterior, continuando o posicionamento até que todos os nós t
 #### Algoritmos De Busca
 
 O DFS foi implementado de maneira recursiva, enquanto o BFS de maneira iterativa.
+
+
+## Site Lúdico Para A Disciplina De Psicologia
+
+A partir dos assuntos abordados no desenvolvimento da disciplina de Psicologia para Computação, foi desenvolvido em um conjunto de 5 integrantes um site com propósitos lúdicos visando um público infantil.
+
+### Contribuição Pessoal
+
+Trabalhando no que compete ao JavaScript no site - excluso o código já existente em frameworks importados durante o projeto, como o Bootstrap - elaborei o sistema de jogo utilizando a ferramenta exclusivamente a ferramenta do Canvas JS.
+
+![](https://media1.giphy.com/media/BxKijrlbP43vsv60rP/giphy.gif)
+![](http://prntscr.com/xo0n33)
