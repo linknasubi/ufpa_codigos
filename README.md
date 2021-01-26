@@ -43,7 +43,7 @@ A partir dos assuntos abordados no desenvolvimento da disciplina de Psicologia p
 
 ### Contribuição Pessoal
 
-Trabalhando no que compete ao JavaScript no site - excluso o código já existente em frameworks importados durante o projeto, como o Bootstrap - elaborei o sistema de jogo utilizando a ferramenta exclusivamente a ferramenta do Canvas JS.
+Trabalhando no que compete ao JavaScript no site - excluso o código já existente em frameworks importados durante o projeto, como o Bootstrap - elaborei o sistema de jogo utilizando exclusivamente a ferramenta do Canvas JS.
 
 ![](https://media1.giphy.com/media/BxKijrlbP43vsv60rP/giphy.gif)
-![](https://imgur.com/undefined)
+![](https://i.imgur.com/vKRBRDq.png)
