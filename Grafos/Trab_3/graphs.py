@@ -45,8 +45,8 @@ class Mtrx_Graph:
             for i in range(0, len(EdgePoints), 2):
                 self.Matrix[EdgePoints[i+1]][EdgePoints[i]] = 1
 
-            
-            
+
+
     
     def nodeDegree(self, Node):
         
@@ -76,7 +76,9 @@ class Mtrx_Graph:
         
         return aux
     
-    
+
+            
+            
     
 class ListAdj_Graph:
     def __init__(self, V:list):
@@ -84,6 +86,7 @@ class ListAdj_Graph:
         self.V = V
         self.loop = 0
         self.graph = {}
+        self.weight = {}
         for i in self.V:
             self.graph[i] = []
             
@@ -106,8 +109,24 @@ class ListAdj_Graph:
             for i in range(0, len(EdgePoints), 2):
                 if EdgePoints[i+1] != EdgePoints[i]:
                     self.graph[EdgePoints[i+1]].append(EdgePoints[i])
+    
+    def deleteEdge(self, EdgePoints:list):
+        for i in range(0, len(EdgePoints), 2):
+            self.graph[EdgePoints[i]].remove(EdgePoints[i+1])
+            self.graph[EdgePoints[i+1]].remove(EdgePoints[i])
+            
         
+    def addNode(self, nodes:list):
+        self.V += nodes
+        
+        for i in self.V:
+            self.graph[i] = []
 
+    
+    def deleteNode(self, nodes:list):
+        for i in nodes:
+            del self.graph[i]
+            self.V.remove(i)
         
     def nodeDegree(self, Node):
         
@@ -138,19 +157,73 @@ class ListAdj_Graph:
             aux += self.Matrix[i][-1][1]
         
         return aux
+    
+    
+    
+    
+    def weightAssign(self, key_val):
+        
+        
+        for i in key_val:
+            
+            arr = i.split(",")
+            arr[0] = int(arr[0])
+            arr[1] = int(arr[1])
+            
+            if(arr[1] in self.graph or arr[1] in self.graph):
+                self.weight = key_val
+            else:
+                print("Non existent edge in edge set")
+                
+                
+    
+                
+class MST:
+    
+    def __init__(self, graph, weights):
+        self.graph = graph
+        self.weight = weights
+        self.new_graph = ListAdj_Graph(graph.keys())
+        
+    
+    def executeMST(self):
+        
+        counter = 0
+        totalSum = 0
+        
+        new_weight = dict(sorted(self.weight.items(), key=lambda item: item[1]))
+        
+        
+    
+        for key, value in new_weight.items():
+            
+            arr = key.split(',')
+            
+        
+            self.new_graph.addEdge( [ int(arr[0]), int(arr[1]) ], 0)
+            
+            if(DFS(self.new_graph.graph).callingCycleDetection( int(arr[0]))):
+    
+                self.new_graph.deleteEdge([ int(arr[0]), int(arr[1]) ])
+            
+            else:    
+                
+                print("\nAdding edges:", key, "that weights", value)
+                print('')
+                print("Adjacency Graph: ", self.new_graph.graph)
+                
+                totalSum += value        
+                counter += 1
 
-
-
-graphs = ListAdj_Graph([1,2,3,4,5,6, 7]) 
-
-#Creates edges, the last value points to a oriented graph or non oriented.
-graphs.addEdge([1,2, 1,5, 1,6, 2,3, 3,4, 3,7, 4,5, 6,3, 6,7], 1)
-
-
-graphs_values = graphs.graph
-
-
-
+                
+                if counter == len(self.graph)-1:
+                    break
+        
+        print("\n The total sum is:", totalSum)
+        return self.new_graph.graph
+            
+            
+            
 
 
 class DFS:
@@ -166,12 +239,29 @@ class DFS:
         self.graph = graph
         self.sort_topography = []
         
+        self.bool = False
+        
         self.id = -1
         self.id_comp = []
         
         for i in (self.graph):
             self.white.append(i)
             self.time_stamp[i] = time.time()
+        
+    
+    
+    def callingCycleDetection(self, i):
+        
+        value = False
+        
+        if i in self.white:
+            value = self.cycleDetection(i, i)
+    
+        
+        return value    
+    
+    def callingCheckGraph(self):
+
         
         for i in (self.graph):
             if i in self.white:
@@ -181,8 +271,8 @@ class DFS:
                 
                 
                 self.checkGraph(i)
-    
-
+                
+        
 
     def checkGraph(self, i):
 
@@ -190,9 +280,6 @@ class DFS:
         self.gray.append(i)
         self.white.remove(i)
         
-        
-
-
         
         for j in self.graph[i]:
             if j in self.white:
@@ -206,29 +293,36 @@ class DFS:
         self.black.append(i)
         self.time_stamp[i] -= time.time()
         self.time_stamp[i] *= -1
-        
-        
-
-
-dfs = DFS(graphs_values)
-
-# for i in range(len(dfs.id_comp)):
-#     print("Component "+str(i), dfs.id_comp[i])
-    
-
-counter = 0
-for i in (dfs.sort_topography[::-1]):
-    if counter < len(dfs.sort_topography[::-1])-1:
-        
-        print('', i, "\n |\n"+" |\n"+"\ /")
-        
-    else:
-        
-        print('',i)
-
-    counter += 1
     
     
+    def cycleDetection(self, i, parent):
+        
+        self.gray.append(i)
+        self.white.remove(i)
+        
+        for j in self.graph[i]:
+            if j in self.white:
+                self.cycleDetection(j, i)
+            
+            elif (j != parent):
+                self.bool = True
+
+            
+            
+        return self.bool
+                
+
+                
+        
+        
+        print("Gray List ->", self.gray, "////","Black List ->", self.black, "\n")
+        self.gray.remove(i)
+        self.black.append(i)
+        self.time_stamp[i] -= time.time()
+        self.time_stamp[i] *= -1
+        
+
+
 
 
 
@@ -273,11 +367,20 @@ class BFS:
             
         
         
-        
 
-# bfs = BFS(graphs_values)
-# bfs.checkGraph()
+graphs = ListAdj_Graph([1,2,3,4,5,6,7,8,9]) 
 
+
+#Creates edges, the last value points to a oriented graph or non oriented.
+graphs.addEdge([1,2, 2,3, 3,4, 4,5, 5,6, 6,7, 7,8, 8,1, 2,8, 9,3, 9,8, 9,7, 4,6, 3,6], 0)
+
+graphs.weightAssign({"1,2":4, "2,3":8,"3,4":7, "4,5":9,"5,6":10, "6,7":2,"7,8":1, "8,1":8,"2,8":11,
+                     "9,3":2,"9,8":7, "9,7":6,"4,6":14, "3,6":4})
+
+graphs_weights = graphs.weight
+graphs_values = graphs.graph
+
+tree = MST(graphs_values, graphs_weights).executeMST()
 
 
 
