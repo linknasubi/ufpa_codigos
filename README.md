@@ -7,6 +7,8 @@
 
 ## Representação Visual Em Algoritmos De Busca
 
+Código disponível em: https://github.com/linknasubi/ufpa_codigos/tree/master/Grafos/Vis_Graph
+
 A partir dos conhecimentos adquiridos na disciplina de Grafos, foi elaborada uma representação visual dos algoritmos de busca DFS e BFS, no qual é possível modificar de maneira
 livre relações entre grafos, seja através de grafos direcionados, não direcionados, modificar o número de nós e gerir suas respectivas ligações.
 
@@ -38,6 +40,8 @@ O DFS foi implementado de maneira recursiva, enquanto o BFS de maneira iterativa
 
 
 ## Site Lúdico Para A Disciplina De Psicologia
+
+Código disponível em: https://github.com/linknasubi/ufpa_codigos/tree/master/Psic_Comp/Code_Space-final/src/js
 
 A partir dos assuntos abordados no desenvolvimento da disciplina de Psicologia para Computação, foi desenvolvido em um conjunto de 5 integrantes um site com propósitos lúdicos visando um público infantil.
 
