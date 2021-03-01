@@ -108,33 +108,48 @@ void liberarArvore(ptNo &p)
      }        
 }
 
+ptNo buscArvore(ptNo &p, int node){
+
+      ptNo aux;
+
+      if(p->dado == node){
+            return p;
+      }
+      
+      aux = buscArvore(p->esq, node);
+
+      if(aux == NULL){
+            aux = buscArvore(p->dir, node);
+
+      }
+
+}
+
 bool insEsquerda(ptNo &p, int node, int val)
 {
 
-      if(p == NULL){
+      ptNo nodeSearched;
+
+      nodeSearched = buscArvore(p, node);
+
+      if(nodeSearched == NULL){
+            cout<<"\nNo inexistente.\n";
             return false;
       }
 
-      if(p->dado != node){
-
-            insEsquerda(p->esq, node, val);
-            insEsquerda(p->dir, node, val);
+      if(nodeSearched->esq != NULL){
+            cout<<"\nNo ocupado.\n";
+            return false;
       }
 
-      else{
 
-            if(p->esq != NULL){
-                  cout<<"\nJa existe um valor no elemento em questao.\n";
-                  return false;
-            }
+      ptNo pNew = NULL;
+      pNew = new NoArvBin;
+      nodeSearched->esq = pNew; 
+      pNew->dado = val;
+      pNew->dir = NULL;
+      pNew->esq = NULL;
 
-            ptNo pNew = NULL;
-            pNew = new NoArvBin;
-            p->esq = pNew; 
-            pNew->dado = val;
-            pNew->dir = NULL;
-            pNew->esq = NULL;
-      }
 
 
       return true;
@@ -145,30 +160,27 @@ bool insEsquerda(ptNo &p, int node, int val)
 bool insDireita(ptNo &p, int node, int val)
 {
 
-      if(p == NULL){
+      ptNo nodeSearched;
+
+      nodeSearched = buscArvore(p, node);
+
+      if(nodeSearched == NULL){
+            cout<<"\nNo inexistente.\n";
+            return false;
+      }
+            if(nodeSearched->dir != NULL){
+            cout<<"\nNo ocupado.\n";
             return false;
       }
 
-      if(p->dado != node){
 
-            insDireita(p->dir, node, val);
-            insDireita(p->esq, node, val);
-      }
+      ptNo pNew = NULL;
+      pNew = new NoArvBin;
+      nodeSearched->dir = pNew; 
+      pNew->dado = val;
+      pNew->dir = NULL;
+      pNew->esq = NULL;
 
-      else{
-
-            if(p->esq != NULL){
-                  cout<<"\nJa existe um valor no elemento em questao.\n";
-                  return false;
-            }
-
-            ptNo pNew = NULL;
-            pNew = new NoArvBin;
-            p->esq = pNew; 
-            pNew->dado = val;
-            pNew->dir = NULL;
-            pNew->esq = NULL;
-      }
 
 
       return true;
@@ -224,7 +236,7 @@ int main ()
                   insEsquerda(p, node, val);  
                   break;
             case 6:
-                  cout<<"Insira o no para se inserir a esquerda: ";
+                  cout<<"Insira o no para se inserir a direita: ";
                   cin>>node;
                   cout<<"Insira o conteudo do no: ";
                   cin>>val;

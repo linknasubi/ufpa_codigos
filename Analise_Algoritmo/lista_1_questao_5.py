@@ -5,37 +5,45 @@ import six
 import random
 import time
 
-def bubble_sort(nums):
-    # We set swapped to True so the loop looks runs at least once
-    swapped = True
-    while swapped:
-        swapped = False
-        for i in range(len(nums) - 1):
-            if nums[i] > nums[i + 1]:
-                # Swap the elements
-                nums[i], nums[i + 1] = nums[i + 1], nums[i]
-                # Set the flag to True so we'll loop again
-                swapped = True
+class rQuickSort:
     
-    return nums
-
-
-
-def insertion_sort(nums):
-    # Start on the second element as we assume the first element is sorted
-    for i in range(1, len(nums)):
-        item_to_insert = nums[i]
-        # And keep a reference of the index of the previous element
-        j = i - 1
-        # Move all items of the sorted segment forward if they are larger than
-        # the item to insert
-        while j >= 0 and nums[j] > item_to_insert:
-            nums[j + 1] = nums[j]
+    def __init__(self):
+        pass
+    
+    
+    def partition(self, arr, low, high):
+     
+        pivot = arr[random.randint(low, high)]
+        j = high + 1
+        i = low - 1
+     
+        while 1:
+     
+            i += 1
+            while (arr[i] < pivot):
+                i += 1
+     
             j -= 1
-        # Insert the item
-        nums[j + 1] = item_to_insert
-        
-    return nums
+            while (arr[j] > pivot):
+                j -= 1
+
+            if (i >= j):
+                return j
+     
+            arr[i], arr[j] = arr[j], arr[i]
+            
+
+     
+     
+    def quickSort(self, arr, low, high):
+        ''' pi is partitioning index, arr[p] is now 
+        at right place '''
+        if (low < high):
+     
+            pivot = self.partition(arr, low, high)
+            
+            self.quickSort(arr, low, pivot)
+            self.quickSort(arr, pivot + 1, high)
 
 
 
@@ -62,7 +70,7 @@ random_values_list = []
 ord_list_range = [1]
 ord_values_list = []
 
-for i in range(0,15):
+for i in range(0,17):
     
     random_values = random.sample(range(0,1000000), rand_value_range)
     random_values_list.append(random_values)
@@ -70,7 +78,7 @@ for i in range(0,15):
     rand_list_range.append(rand_value_range)
 
 
-for i in range(0,15):
+for i in range(0,17):
     ord_values_list.append([])
     for j in range(0, ord_list_range[i]):
         ord_values_list[i].append(j)
@@ -84,56 +92,29 @@ ord_list = ord_values_list[:]
 
 time_list = []
 
-insert_seq = [[ [], [] ], []]
-bubble_seq = [[ [], [] ], []]
-select_seq = [[ [], [] ], []]
+select_seq = [[], []]
+quick_seq = [[] , []]
 
 
-for j in range(2):
-
-    for i in range(len(random_list)):
-        if j == 0:
-            init_time = time.time()
-            random_list_of_nums = insertion_sort(random_list[i])
-            insert_seq[0][0].append(round(time.time() - init_time, 4))
-        else:
-            init_time = time.time()
-            ord_list_of_nums = insertion_sort(ord_list[i])
-            insert_seq[0][1].append(round(time.time() - init_time, 4))
-        
-            insert_seq[1].append(len(random_list[i]))
 
 
-    for i in range(len(random_list)):
-        if j == 0:
-            init_time = time.time()
-            random_list_of_nums = bubble_sort(random_list[i])
-            bubble_seq[0][0].append(round(time.time() - init_time, 4))
-        else:
-            init_time = time.time()
-            ord_list_of_nums = bubble_sort(ord_list[i])
-            bubble_seq[0][1].append(round(time.time() - init_time, 4))
-            
-            bubble_seq[1].append(len(random_list[i]))
+
+for i in range(len(random_list)):
+    init_time = time.time()
+    random_list_of_nums = rQuickSort().quickSort(random_list[i], 0, len(random_list[i])-1)
+    quick_seq[0].append(round(time.time() - init_time, 4))
+    quick_seq[1].append(len(random_list[i]))
+
             
 
-    for i in range(len(random_list)):
-        if j == 0:
-            init_time = time.time()
-            random_list_of_nums = selection_sort(random_list[i])
-            select_seq[0][0].append(round(time.time() - init_time, 4))
-        else:
-            init_time = time.time()
-            ord_list_of_nums = selection_sort(ord_list[i])
-            select_seq[0][1].append(round(time.time() - init_time, 4))
-        
-            select_seq[1].append(len(random_list[i]))
+for i in range(len(random_list)):
 
+    init_time = time.time()
+    random_list_of_nums = selection_sort(random_list[i])
+    select_seq[0].append(round(time.time() - init_time, 4))
+    select_seq[1].append(len(random_list[i]))
 
-
-
-
-
+print(select_seq)
 
 
 
@@ -143,23 +124,21 @@ def plotting(range_size, time_value, name):
     plt.xlabel('Tamanho de entrada.')
     plt.ylabel('Tempo em segundo.')
     plt.title(name)
-    plt.plot(range_size, time_value[1], "-g", label="Valores ordenados")
-    plt.plot(range_size, time_value[0], "-r", label="Valores aleatórios")
+    plt.plot(range_size, time_value, "-r", label="Valores aleatórios")
     plt.legend(loc="upper left")
     plt.savefig("./lista_1_quest_5/"+name+"_1")
     plt.show()
 
 
 plotting(select_seq[1], select_seq[0], "Selection")
-plotting(insert_seq[1], insert_seq[0], "Insertion")
-plotting(bubble_seq[1], bubble_seq[0], "Bubble")
+plotting(quick_seq[1], quick_seq[0], "Quick")
 
 
 def tabling(range_size, time_value, name):
     df = pd.DataFrame()
     df['Entrada'] = range_size
-    df['Ordenados'] = time_value[0]
-    df['Aleatórios'] = time_value[1]
+
+    df['Segundos'] = time_value
     
     return df
 
@@ -200,7 +179,7 @@ def render_mpl_table(data, col_width=5.0, row_height=0.625, font_size=14,
 #
 #
 render_mpl_table(tabling(select_seq[1], select_seq[0], "Selection"), header_columns=0, col_width=2.0)
-render_mpl_table(tabling(insert_seq[1], insert_seq[0], "Insertion"), header_columns=0, col_width=2.0)
-render_mpl_table(tabling(bubble_seq[1], bubble_seq[0], "Bubble"), header_columns=0, col_width=2.0)
+render_mpl_table(tabling(quick_seq[1], quick_seq[0], "Quick"), header_columns=0, col_width=2.0)
+
 
 
