@@ -57,9 +57,6 @@ class RoundRobin:
         self.line = Rounding(self.processes)
 
         
-        
-        
-
     
     def runningManager(self):
             
@@ -80,8 +77,8 @@ class RoundRobin:
                 self.line.removeElement(0)
                 
             
-            if(len(line) > 0):
-                self.line.lastPositioning()
+                if(len(line) > 0):
+                    self.line.lastPositioning()
                 
     
     
@@ -104,7 +101,6 @@ class RoundRobin:
             else:
                 print(key + ', ' +  str(value) + '*; ', end='')
             
-        
 
 
 
@@ -195,9 +191,9 @@ class FIFO:
 
 
 
-# RoundRobin(5, [   100,  51, 28, 10, 157   ]).runningManager()
+RoundRobin(5, [   100,  51, 28, 10, 157   ]).runningManager()
 
-FIFO(10, [   [100, 7],  [51, 2], [28, 7], [11, 0], [157, 5]   ]).runningManager()
+# FIFO(10, [   [100, 7],  [51, 2], [28, 7], [11, 0], [157, 5]   ]).runningManager()
 
 
 
