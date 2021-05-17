@@ -62,6 +62,7 @@ class RoundRobin:
             
 
         line = self.line.line
+
  
         while len(line) > 0:
             
@@ -77,8 +78,8 @@ class RoundRobin:
                 self.line.removeElement(0)
                 
             
-                if(len(line) > 0):
-                    self.line.lastPositioning()
+            if(len(line) > 0):
+                self.line.lastPositioning()
                 
     
     
@@ -88,19 +89,31 @@ class RoundRobin:
         
         line = self.line.line
         
+        aux = 0
+        
         print('')
+        
+        
         
         for i in line:
             
             value = i.TT
             key = i.name
             
-            if value > self.TS:
-                print(key + ', ' +  str(self.TS) + '; ', end='')
+            if aux == 0:
             
+                if value > self.TS:
+                    print(key + ', ' +  str(self.TS) + '; ', end='')
+                
+                else:
+                    print(key + ', ' +  str(value) + '*; ', end='')
+                    
             else:
-                print(key + ', ' +  str(value) + '*; ', end='')
+                print(key + ', 0' + '; ', end='')
             
+            aux += 1
+            
+
 
 
 
@@ -164,7 +177,7 @@ class FIFO:
                 
                 if(len(line.line) > 0):
                     line.lastPositioning()
-                    
+            
         
     
     def GUI(self, line):
@@ -172,17 +185,25 @@ class FIFO:
         
         print('')
         
+        aux = 0
+        
         for i in line:
             
             value = i.TT
             key = i.name
             
-            if value > self.TS:
-                print(key + ', ' +  str(self.TS) + '; ', end='')
+            if aux == 0:
+                if value > self.TS:
+                    print(key + ', ' +  str(self.TS) + '; ', end='')
+                
+                else:
+                    print(key + ', ' +  str(value) + '*; ', end='')
             
             else:
-                print(key + ', ' +  str(value) + '*; ', end='')
-        
+                print(key + ', 0' +  '; ', end='')
+            
+            
+            aux += 1
         
         
         
@@ -191,9 +212,9 @@ class FIFO:
 
 
 
-RoundRobin(5, [   100,  51, 28, 10, 157   ]).runningManager()
+RoundRobin(5, [   50,  51, 28, 10, 87   ]).runningManager()
 
-# FIFO(10, [   [100, 7],  [51, 2], [28, 7], [11, 0], [157, 5]   ]).runningManager()
+FIFO(10, [   [100, 7],  [51, 2], [28, 7], [11, 0], [157, 5]   ]).runningManager()
 
 
 
